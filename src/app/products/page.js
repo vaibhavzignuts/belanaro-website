@@ -101,7 +101,7 @@
 //         style={{ backgroundImage: "url('/catagoeies/COVER IMAGE.jpg')" }}
 //       >
 //         {/* Dark overlay for better text readability */}
-//         <div className="absolute inset-0 bg-gradient-to-br from-[#A8415B]/70 to-[#7C1D35]/70"></div>
+//         <div className="absolute inset-0 bg-gradient-to-br from-[#7C3AED]/70 to-[#7C1D35]/70"></div>
 //         {/* Optional pattern overlay */}
 //         <div className="absolute inset-0 bg-black opacity-5 pattern-diagonal-lines pattern-white pattern-bg-transparent pattern-size-4"></div>
 //         <div className="container mx-auto px-4 relative z-10">
@@ -128,7 +128,7 @@
 //               <motion.button
 //                 whileHover={{ scale: 1.05 }}
 //                 whileTap={{ scale: 0.95 }}
-//                 className="bg-white text-[#A8415B] px-8 py-4 rounded-md font-medium shadow-lg flex items-center"
+//                 className="bg-white text-[#7C3AED] px-8 py-4 rounded-md font-medium shadow-lg flex items-center"
 //                 onClick={scrollToProducts}
 //               >
 //                 Browse Products <ArrowRight className="ml-2 h-5 w-5" />
@@ -156,7 +156,7 @@
 //                   onClick={() => handleCategoryChange(cat.id)}
 //                   className={`px-4 py-2 rounded-lg whitespace-nowrap transition-all flex items-center ${
 //                     activeCategory === cat.id
-//                       ? 'bg-[#A8415B] text-white shadow-md'
+//                       ? 'bg-[#7C3AED] text-white shadow-md'
 //                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
 //                   }`}
 //                 >
@@ -179,7 +179,7 @@
 //                 placeholder="Search products..."
 //                 value={searchTerm}
 //                 onChange={(e) => setSearchTerm(e.target.value)}
-//                 className="pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:ring-2 focus:ring-[#A8415B] focus:border-transparent outline-none"
+//                 className="pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:ring-2 focus:ring-[#7C3AED] focus:border-transparent outline-none"
 //               />
 //               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
 //             </div>
@@ -195,7 +195,7 @@
 //             placeholder="Search products..."
 //             value={searchTerm}
 //             onChange={(e) => setSearchTerm(e.target.value)}
-//             className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:ring-2 focus:ring-[#A8415B] focus:border-transparent outline-none"
+//             className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:ring-2 focus:ring-[#7C3AED] focus:border-transparent outline-none"
 //           />
 //           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
 //         </div>
@@ -235,19 +235,19 @@
 
 //               <div className="grid md:grid-cols-2 gap-8">
 //                 <div>
-//                   <h3 className="text-xl font-semibold text-[#A8415B] mb-4">
+//                   <h3 className="text-xl font-semibold text-[#7C3AED] mb-4">
 //                     {currentCategory?.subheadline}
 //                   </h3>
 //                   <p className="text-gray-700 mb-6 leading-relaxed">
 //                     {currentCategory?.description}
 //                   </p>
-//                   <button className="mt-2 inline-flex items-center text-[#A8415B] font-medium hover:underline">
+//                   <button className="mt-2 inline-flex items-center text-[#7C3AED] font-medium hover:underline">
 //                     <Download className="mr-2 h-4 w-4" /> {currentCategory?.cta}
 //                   </button>
 //                 </div>
 //                 <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
 //                   <h3 className="text-xl font-semibold mb-4 flex items-center">
-//                     <ShoppingBag className="mr-2 h-5 w-5 text-[#A8415B]" />
+//                     <ShoppingBag className="mr-2 h-5 w-5 text-[#7C3AED]" />
 //                     Applications
 //                   </h3>
 //                   <p className="text-gray-700 leading-relaxed">
@@ -300,7 +300,7 @@
 //                             className="object-cover group-hover:scale-105 transition-transform duration-300"
 //                           />
 //                           <button className="absolute top-3 right-3 p-2 bg-white/80 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
-//                             <Heart className="h-4 w-4 text-[#A8415B]" />
+//                             <Heart className="h-4 w-4 text-[#7C3AED]" />
 //                           </button>
 //                         </div>
 //                         <div className="p-5">
@@ -310,7 +310,7 @@
 //                           <p className="text-gray-600 text-sm mb-4 line-clamp-2">
 //                             {product.description.split('.')[0]}.
 //                           </p>
-//                           <button className="text-[#A8415B] text-sm font-medium flex items-center hover:underline">
+//                           <button className="text-[#7C3AED] text-sm font-medium flex items-center hover:underline">
 //                             View Details <ArrowRight className="ml-1 h-3 w-3" />
 //                           </button>
 //                         </div>
@@ -338,7 +338,7 @@
 //                 </p>
 //                 <button
 //                   onClick={() => setSearchTerm('')}
-//                   className="text-[#A8415B] hover:underline"
+//                   className="text-[#7C3AED] hover:underline"
 //                 >
 //                   Clear search filters
 //                 </button>
@@ -390,7 +390,7 @@
 
 //                 <div>
 //                   <div className="mb-6">
-//                     <h4 className="text-sm font-medium text-[#A8415B] mb-1">
+//                     <h4 className="text-sm font-medium text-[#7C3AED] mb-1">
 //                       {currentCategory?.title}
 //                     </h4>
 //                     <h3 className="text-2xl font-bold text-gray-800 mb-4">
@@ -428,7 +428,7 @@
 //                               key={idx}
 //                               className="text-gray-700 flex items-start"
 //                             >
-//                               <div className="h-5 w-5 rounded-full bg-[#A8415B]/10 text-[#A8415B] flex items-center justify-center text-xs mr-3 mt-0.5">
+//                               <div className="h-5 w-5 rounded-full bg-[#7C3AED]/10 text-[#7C3AED] flex items-center justify-center text-xs mr-3 mt-0.5">
 //                                 •
 //                               </div>
 //                               {spec}
@@ -466,7 +466,7 @@
 //                               key={idx}
 //                               className="text-gray-700 flex items-start"
 //                             >
-//                               <div className="h-5 w-5 rounded-full bg-[#A8415B]/10 text-[#A8415B] flex items-center justify-center text-xs mr-3 mt-0.5">
+//                               <div className="h-5 w-5 rounded-full bg-[#7C3AED]/10 text-[#7C3AED] flex items-center justify-center text-xs mr-3 mt-0.5">
 //                                 •
 //                               </div>
 //                               {app}
@@ -481,14 +481,14 @@
 //                     <motion.button
 //                       whileHover={{ scale: 1.05 }}
 //                       whileTap={{ scale: 0.95 }}
-//                       className="bg-[#A8415B] text-white px-6 py-3 rounded-md font-medium flex items-center shadow-md"
+//                       className="bg-[#7C3AED] text-white px-6 py-3 rounded-md font-medium flex items-center shadow-md"
 //                     >
 //                       Request Quote <ArrowRight className="ml-2 h-4 w-4" />
 //                     </motion.button>
 //                     <motion.button
 //                       whileHover={{ scale: 1.05 }}
 //                       whileTap={{ scale: 0.95 }}
-//                       className="border border-[#A8415B] text-[#A8415B] px-6 py-3 rounded-md font-medium flex items-center"
+//                       className="border border-[#7C3AED] text-[#7C3AED] px-6 py-3 rounded-md font-medium flex items-center"
 //                     >
 //                       Download Spec Sheet <Download className="ml-2 h-4 w-4" />
 //                     </motion.button>
@@ -506,7 +506,7 @@
 //                     .map((product, idx) => (
 //                       <div
 //                         key={idx}
-//                         className="p-3 border rounded-lg hover:border-[#A8415B] cursor-pointer transition-colors"
+//                         className="p-3 border rounded-lg hover:border-[#7C3AED] cursor-pointer transition-colors"
 //                         onClick={() => {
 //                           setSelectedProduct(product.name);
 //                           setExpandedSpecs(false);
@@ -534,7 +534,7 @@
 //       </AnimatePresence>
 
 //       {/* CTA Section */}
-//       <section className="py-20 bg-gradient-to-br from-[#E7DFD9] to-[#F5F1EE]">
+//       <section className="py-20 bg-gradient-to-br from-[#FDFCFB] to-[#F5F1EE]">
 //         <div className="container mx-auto px-4">
 //           <div className="max-w-4xl mx-auto text-center">
 //             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
@@ -549,7 +549,7 @@
 //                 whileHover={{ scale: 1.03 }}
 //                 whileTap={{ scale: 0.97 }}
 //                 href="https://wa.me/919909479990"
-//                 className="bg-[#A8415B] text-white p-5 rounded-xl font-medium flex items-center justify-center shadow-lg group"
+//                 className="bg-[#7C3AED] text-white p-5 rounded-xl font-medium flex items-center justify-center shadow-lg group"
 //               >
 //                 <Phone className="mr-3 h-5 w-5 group-hover:rotate-12 transition-transform" />
 //                 WhatsApp +91 99094 79990
@@ -557,7 +557,7 @@
 //               <motion.button
 //                 whileHover={{ scale: 1.03 }}
 //                 whileTap={{ scale: 0.97 }}
-//                 className="bg-white text-[#A8415B] p-5 rounded-xl font-medium flex items-center justify-center shadow-md border-2 border-transparent hover:border-[#A8415B] transition-all group"
+//                 className="bg-white text-[#7C3AED] p-5 rounded-xl font-medium flex items-center justify-center shadow-md border-2 border-transparent hover:border-[#7C3AED] transition-all group"
 //               >
 //                 <Mail className="mr-3 h-5 w-5 group-hover:rotate-12 transition-transform" />
 //                 Send Us Your Requirements
@@ -595,7 +595,7 @@ export default function CategoriesPage() {
         style={{ backgroundImage: "url('/catagoeies/COVER IMAGE.jpg')" }}
       >
         {/* Dark overlay for better text readability */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#A8415B]/70 to-[#7C1D35]/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#7C3AED]/70 to-[#7C1D35]/70"></div>
         {/* Optional pattern overlay */}
         <div className="absolute inset-0 bg-black opacity-5 pattern-diagonal-lines pattern-white pattern-bg-transparent pattern-size-4"></div>
         <div className="container mx-auto px-4 relative z-10">
@@ -622,7 +622,7 @@ export default function CategoriesPage() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white text-[#A8415B] px-8 py-4 rounded-md font-medium shadow-lg flex items-center"
+                className="bg-white text-[#7C3AED] px-8 py-4 rounded-md font-medium shadow-lg flex items-center"
                 onClick={() => {
                   const element = document.getElementById('categories-grid');
                   if (element) {
@@ -712,7 +712,7 @@ export default function CategoriesPage() {
                                 className="w-full h-full object-cover"
                               />
                             </div>
-                            <h3 className="text-xl font-semibold text-gray-800 group-hover:text-[#A8415B] transition-colors">
+                            <h3 className="text-xl font-semibold text-gray-800 group-hover:text-[#7C3AED] transition-colors">
                               {category.title}
                             </h3>
                           </div>
@@ -725,7 +725,7 @@ export default function CategoriesPage() {
                               <ShoppingBag className="h-4 w-4 mr-1" />
                               {productCount} Products
                             </span>
-                            <span className="text-[#A8415B] text-sm font-medium flex items-center group-hover:underline">
+                            <span className="text-[#7C3AED] text-sm font-medium flex items-center group-hover:underline">
                               View Products{' '}
                               <ArrowRight className="ml-1 h-3 w-3" />
                             </span>
@@ -763,8 +763,8 @@ export default function CategoriesPage() {
                 viewport={{ once: true }}
                 className="text-center p-6"
               >
-                <div className="w-16 h-16 bg-[#A8415B]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <ShoppingBag className="h-8 w-8 text-[#A8415B]" />
+                <div className="w-16 h-16 bg-[#7C3AED]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <ShoppingBag className="h-8 w-8 text-[#7C3AED]" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">
                   Premium Quality
@@ -782,8 +782,8 @@ export default function CategoriesPage() {
                 viewport={{ once: true }}
                 className="text-center p-6"
               >
-                <div className="w-16 h-16 bg-[#A8415B]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Download className="h-8 w-8 text-[#A8415B]" />
+                <div className="w-16 h-16 bg-[#7C3AED]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Download className="h-8 w-8 text-[#7C3AED]" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">
                   Global Standards
@@ -801,8 +801,8 @@ export default function CategoriesPage() {
                 viewport={{ once: true }}
                 className="text-center p-6"
               >
-                <div className="w-16 h-16 bg-[#A8415B]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <ArrowRight className="h-8 w-8 text-[#A8415B]" />
+                <div className="w-16 h-16 bg-[#7C3AED]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <ArrowRight className="h-8 w-8 text-[#7C3AED]" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">
                   Reliable Supply
@@ -818,7 +818,7 @@ export default function CategoriesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-[#E7DFD9] to-[#F5F1EE]">
+      <section className="py-20 bg-gradient-to-br from-[#FDFCFB] to-[#F5F1EE]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
@@ -833,7 +833,7 @@ export default function CategoriesPage() {
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 href="https://wa.me/919909479990"
-                className="bg-[#A8415B] text-white p-5 rounded-xl font-medium flex items-center justify-center shadow-lg group"
+                className="bg-[#7C3AED] text-white p-5 rounded-xl font-medium flex items-center justify-center shadow-lg group"
               >
                 <Phone className="mr-3 h-5 w-5 group-hover:rotate-12 transition-transform" />
                 WhatsApp +91 99094 79990
@@ -841,7 +841,7 @@ export default function CategoriesPage() {
               <motion.button
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
-                className="bg-white text-[#A8415B] p-5 rounded-xl font-medium flex items-center justify-center shadow-md border-2 border-transparent hover:border-[#A8415B] transition-all group"
+                className="bg-white text-[#7C3AED] p-5 rounded-xl font-medium flex items-center justify-center shadow-md border-2 border-transparent hover:border-[#7C3AED] transition-all group"
               >
                 <Mail className="mr-3 h-5 w-5 group-hover:rotate-12 transition-transform" />
                 Send Us Your Requirements

@@ -12,7 +12,7 @@ const Description = ({
   viewProducts,
 }) => {
   return (
-    <div className="w-full bg-[#A8415B] h-full relative">
+    <div className="w-full bg-[#7C3AED] h-full relative">
       <div className="uppercase text-sm absolute right-4 top-2 underline-offset-4 underline text-white">
         Products
       </div>
@@ -53,7 +53,7 @@ const Description = ({
             initial={{ scale: 0.9 }}
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 400, damping: 10 }}
-            className="bg-[#E7DFD9] text-black uppercase px-6 py-3 rounded-md mt-8 md:my-10 cursor-pointer hover:bg-white"
+            className="bg-[#FDFCFB] text-black uppercase px-6 py-3 rounded-md mt-8 md:my-10 cursor-pointer hover:bg-white"
             onClick={() => viewProducts(category.id)}
           >
             View Products

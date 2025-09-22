@@ -57,7 +57,7 @@ const Catalog = () => {
   ];
 
   return (
-    <div className="bg-[#f5f3f0] min-h-screen">
+    <div className="bg-[#FDFCFB] min-h-screen">
       {/* Header with parallax effect */}
       <div className="relative h-[50vh] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/20 z-10" />
@@ -90,7 +90,7 @@ const Catalog = () => {
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
             Explore Our Product Catalogue
           </h2>
-          <div className="w-20 h-1 bg-[#A8415B] mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-[#7C3AED] mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-3xl mx-auto">
             At <strong>BELANARO</strong>, we specialize in delivering
             top-quality <strong>dehydrated food</strong> products including{' '}
@@ -134,7 +134,7 @@ const Catalog = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-[#A8415B] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-md flex items-center"
+              className="bg-[#7C3AED] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-md flex items-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +168,7 @@ const Catalog = () => {
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
             Our Product Range
           </h2>
-          <div className="w-20 h-1 bg-[#A8415B] mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-[#7C3AED] mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-3xl mx-auto mb-12">
             Explore our comprehensive selection of premium dehydrated vegetables
             that cater to food manufacturers, wholesalers, retailers, and global
@@ -208,7 +208,7 @@ const Catalog = () => {
                 >
                   <motion.span
                     whileHover={{ x: 5 }}
-                    className="text-[#A8415B] font-medium flex items-center cursor-pointer"
+                    className="text-[#7C3AED] font-medium flex items-center cursor-pointer"
                   >
                     View Details
                     <svg
@@ -263,7 +263,7 @@ const Catalog = () => {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="mr-3 text-[#A8415B]"
+                  className="mr-3 text-[#7C3AED]"
                 >
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                   <polyline points="22,6 12,13 2,6"></polyline>
@@ -283,7 +283,7 @@ const Catalog = () => {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="mr-3 text-[#A8415B]"
+                  className="mr-3 text-[#7C3AED]"
                 >
                   <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
                 </svg>
@@ -302,7 +302,7 @@ const Catalog = () => {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="mr-3 text-[#A8415B]"
+                  className="mr-3 text-[#7C3AED]"
                 >
                   <circle cx="12" cy="12" r="10"></circle>
                   <line x1="2" y1="12" x2="22" y2="12"></line>
@@ -316,7 +316,7 @@ const Catalog = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-[#A8415B] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-md"
+              className="bg-[#7C3AED] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-md"
             >
               Contact Us
             </motion.button>
@@ -334,7 +334,7 @@ const Catalog = () => {
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
             Explore More
           </h2>
-          <div className="w-20 h-1 bg-[#A8415B] mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-[#7C3AED] mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-3xl mx-auto mb-12">
             Check out other sections of our website to learn more about our
             products and services.
@@ -349,7 +349,7 @@ const Catalog = () => {
             viewport={{ once: true }}
             className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
           >
-            <div className="mb-4 text-[#A8415B]">
+            <div className="mb-4 text-[#7C3AED]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -374,7 +374,7 @@ const Catalog = () => {
             <Link href="/workshop">
               <motion.span
                 whileHover={{ x: 5 }}
-                className="text-[#A8415B] font-medium flex items-center cursor-pointer"
+                className="text-[#7C3AED] font-medium flex items-center cursor-pointer"
               >
                 Learn More
                 <svg
@@ -403,7 +403,7 @@ const Catalog = () => {
             viewport={{ once: true }}
             className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
           >
-            <div className="mb-4 text-[#A8415B]">
+            <div className="mb-4 text-[#7C3AED]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -428,7 +428,7 @@ const Catalog = () => {
             <Link href="/quality">
               <motion.span
                 whileHover={{ x: 5 }}
-                className="text-[#A8415B] font-medium flex items-center cursor-pointer"
+                className="text-[#7C3AED] font-medium flex items-center cursor-pointer"
               >
                 Learn More
                 <svg
@@ -457,7 +457,7 @@ const Catalog = () => {
             viewport={{ once: true }}
             className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
           >
-            <div className="mb-4 text-[#A8415B]">
+            <div className="mb-4 text-[#7C3AED]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -479,7 +479,7 @@ const Catalog = () => {
             <Link href="/contact">
               <motion.span
                 whileHover={{ x: 5 }}
-                className="text-[#A8415B] font-medium flex items-center cursor-pointer"
+                className="text-[#7C3AED] font-medium flex items-center cursor-pointer"
               >
                 Get in Touch
                 <svg
@@ -508,7 +508,7 @@ const Catalog = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-[#A8415B]/10 rounded-2xl p-10 md:p-16 text-center"
+          className="bg-[#7C3AED]/10 rounded-2xl p-10 md:p-16 text-center"
         >
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
             Need Additional Information?
@@ -521,7 +521,7 @@ const Catalog = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-[#A8415B] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-lg"
+            className="bg-[#7C3AED] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-lg"
           >
             Contact Our Team
           </motion.button>

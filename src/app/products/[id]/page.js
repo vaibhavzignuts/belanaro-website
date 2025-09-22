@@ -56,7 +56,7 @@ export default function ProductsListingPage({}) {
           <h1 className="text-2xl font-bold text-gray-800 mb-4">
             Category Not Found
           </h1>
-          <Link href="/products" className="text-[#A8415B] hover:underline">
+          <Link href="/products" className="text-[#7C3AED] hover:underline">
             Back to Categories
           </Link>
         </div>
@@ -70,7 +70,7 @@ export default function ProductsListingPage({}) {
       <section className="bg-white border-b border-gray-200">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center text-sm text-gray-600 mb-4">
-            <Link href="/products" className="hover:text-[#A8415B]">
+            <Link href="/products" className="hover:text-[#7C3AED]">
               Categories
             </Link>
             <ArrowRight className="h-4 w-4 mx-2" />
@@ -89,7 +89,7 @@ export default function ProductsListingPage({}) {
             </div>
             <Link
               href="/products"
-              className="inline-flex items-center text-[#A8415B] hover:underline"
+              className="inline-flex items-center text-[#7C3AED] hover:underline"
             >
               <ArrowLeft className="mr-2 h-4 w-4" /> Back to Categories
             </Link>
@@ -124,7 +124,7 @@ export default function ProductsListingPage({}) {
                 </p>
                 <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
                   <h3 className="text-lg font-semibold mb-3 flex items-center">
-                    <ShoppingBag className="mr-2 h-5 w-5 text-[#A8415B]" />
+                    <ShoppingBag className="mr-2 h-5 w-5 text-[#7C3AED]" />
                     Applications
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
@@ -161,7 +161,7 @@ export default function ProductsListingPage({}) {
                 placeholder="Search products..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:ring-2 focus:ring-[#A8415B] focus:border-transparent outline-none"
+                className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:ring-2 focus:ring-[#7C3AED] focus:border-transparent outline-none"
               />
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
             </div>
@@ -188,7 +188,7 @@ export default function ProductsListingPage({}) {
                   <List className="h-4 w-4" />
                 </button>
               </div>
-              <button className="bg-[#A8415B] text-white px-4 py-2 rounded-md font-medium flex items-center">
+              <button className="bg-[#7C3AED] text-white px-4 py-2 rounded-md font-medium flex items-center">
                 <Download className="mr-2 h-4 w-4" />
                 Download Catalog
               </button>
@@ -225,7 +225,7 @@ export default function ProductsListingPage({}) {
                               className="object-cover group-hover:scale-105 transition-transform duration-300"
                             />
                             <button className="absolute top-3 right-3 p-2 bg-white/80 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
-                              <Heart className="h-4 w-4 text-[#A8415B]" />
+                              <Heart className="h-4 w-4 text-[#7C3AED]" />
                             </button>
                           </div>
                           <div className="p-5">
@@ -235,7 +235,7 @@ export default function ProductsListingPage({}) {
                             <p className="text-gray-600 text-sm mb-4 line-clamp-2">
                               {product.description.split('.')[0]}.
                             </p>
-                            <span className="text-[#A8415B] text-sm font-medium flex items-center hover:underline">
+                            <span className="text-[#7C3AED] text-sm font-medium flex items-center hover:underline">
                               View Details{' '}
                               <ArrowRight className="ml-1 h-3 w-3" />
                             </span>
@@ -274,7 +274,7 @@ export default function ProductsListingPage({}) {
                               <p className="text-gray-600 mb-4 line-clamp-2">
                                 {product.description}
                               </p>
-                              <span className="text-[#A8415B] text-sm font-medium flex items-center hover:underline">
+                              <span className="text-[#7C3AED] text-sm font-medium flex items-center hover:underline">
                                 View Details{' '}
                                 <ArrowRight className="ml-1 h-3 w-3" />
                               </span>
@@ -312,7 +312,7 @@ export default function ProductsListingPage({}) {
                   </p>
                   <button
                     onClick={() => setSearchTerm('')}
-                    className="text-[#A8415B] hover:underline"
+                    className="text-[#7C3AED] hover:underline"
                   >
                     Clear search filters
                   </button>
@@ -324,7 +324,7 @@ export default function ProductsListingPage({}) {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-[#E7DFD9] to-[#F5F1EE]">
+      <section className="py-20 bg-gradient-to-br from-[#FDFCFB] to-[#F5F1EE]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
@@ -339,7 +339,7 @@ export default function ProductsListingPage({}) {
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 href="https://wa.me/919909479990"
-                className="bg-[#A8415B] text-white p-5 rounded-xl font-medium flex items-center justify-center shadow-lg group"
+                className="bg-[#7C3AED] text-white p-5 rounded-xl font-medium flex items-center justify-center shadow-lg group"
               >
                 <Phone className="mr-3 h-5 w-5 group-hover:rotate-12 transition-transform" />
                 WhatsApp +91 99094 79990
@@ -347,7 +347,7 @@ export default function ProductsListingPage({}) {
               <motion.button
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
-                className="bg-white text-[#A8415B] p-5 rounded-xl font-medium flex items-center justify-center shadow-md border-2 border-transparent hover:border-[#A8415B] transition-all group"
+                className="bg-white text-[#7C3AED] p-5 rounded-xl font-medium flex items-center justify-center shadow-md border-2 border-transparent hover:border-[#7C3AED] transition-all group"
               >
                 <Mail className="mr-3 h-5 w-5 group-hover:rotate-12 transition-transform" />
                 Send Us Your Requirements

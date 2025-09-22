@@ -22,14 +22,14 @@ export default function AboutUsLayout({ children }) {
   const pageTitle = currentPage?.label || 'About Us';
 
   return (
-    <div className="min-h-screen bg-[#f5f3f0]">
+    <div className="min-h-screen bg-[#FDFCFB]">
       {/* Breadcrumb Navigation */}
       <div className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-3">
           <div className="flex items-center text-sm text-gray-600">
             <Link
               href="/"
-              className="hover:text-[#A8415B] transition-colors flex items-center"
+              className="hover:text-[#7C3AED] transition-colors flex items-center"
             >
               <Home size={14} className="mr-1" />
               Home
@@ -37,14 +37,14 @@ export default function AboutUsLayout({ children }) {
             <ChevronRight size={14} className="mx-2" />
             <Link
               href="/about-us"
-              className="hover:text-[#A8415B] transition-colors"
+              className="hover:text-[#7C3AED] transition-colors"
             >
               About Us
             </Link>
             {pathname !== '/about-us' && (
               <>
                 <ChevronRight size={14} className="mx-2" />
-                <span className="text-[#A8415B] font-medium">{pageTitle}</span>
+                <span className="text-[#7C3AED] font-medium">{pageTitle}</span>
               </>
             )}
           </div>
@@ -63,8 +63,8 @@ export default function AboutUsLayout({ children }) {
                   href={page.path}
                   className={`whitespace-nowrap px-5 py-4 text-sm font-medium border-b-2 transition-colors ${
                     isActive
-                      ? 'border-[#A8415B] text-[#A8415B]'
-                      : 'border-transparent text-gray-600 hover:text-[#A8415B] hover:border-gray-300'
+                      ? 'border-[#7C3AED] text-[#7C3AED]'
+                      : 'border-transparent text-gray-600 hover:text-[#7C3AED] hover:border-gray-300'
                   }`}
                 >
                   {page.label}

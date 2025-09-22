@@ -70,7 +70,7 @@ import { motion, useInView, useAnimation } from 'framer-motion';
     };
 
     return (
-      <div className="bg-[#f5f3f0] min-h-screen">
+      <div className="bg-[#FDFCFB] min-h-screen">
         {/* Hero Section */}
         <div className="relative h-[60vh] w-full overflow-hidden">
           <Image
@@ -102,14 +102,14 @@ import { motion, useInView, useAnimation } from 'framer-motion';
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="bg-[#e7dfd9] py-4 px-6 md:px-20 lg:px-32"
+          className="bg-[#FDFCFB] py-4 px-6 md:px-20 lg:px-32"
         >
           <div className="flex items-center gap-2 text-sm">
-            <Link href="/" className="text-gray-600 hover:text-[#A8415B]">
+            <Link href="/" className="text-gray-600 hover:text-[#7C3AED]">
               Home
             </Link>
             <span className="text-gray-400">/</span>
-            <span className="text-[#A8415B]">Workshop</span>
+            <span className="text-[#7C3AED]">Workshop</span>
           </div>
         </motion.div>
 
@@ -126,7 +126,7 @@ import { motion, useInView, useAnimation } from 'framer-motion';
             className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 relative inline-block"
           >
             Our State-of-the-Art Manufacturing Facility
-            <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-[#A8415B] -mb-2"></span>
+            <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-[#7C3AED] -mb-2"></span>
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -142,7 +142,7 @@ import { motion, useInView, useAnimation } from 'framer-motion';
             </motion.div>
 
             <motion.div variants={itemVariants} className="space-y-6">
-              <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-sm border-l-4 border-[#A8415B]">
+              <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-sm border-l-4 border-[#7C3AED]">
                 <p className="text-gray-600">
                   Welcome to our advanced <strong>workshop</strong> where
                   precision, quality, and innovation come together to create the
@@ -158,7 +158,7 @@ import { motion, useInView, useAnimation } from 'framer-motion';
         </motion.section>
 
         {/* From Raw Materials to Finished Goods */}
-        <section className="py-16 px-6 md:px-20 lg:px-32 bg-[#e7dfd9]/50">
+        <section className="py-16 px-6 md:px-20 lg:px-32 bg-[#FDFCFB]/50">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -257,12 +257,12 @@ import { motion, useInView, useAnimation } from 'framer-motion';
             className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 relative inline-block"
           >
             Advanced Dehydration Technology
-            <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-[#A8415B] -mb-2"></span>
+            <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-[#7C3AED] -mb-2"></span>
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <motion.div variants={itemVariants} className="space-y-6">
-              <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-sm border-l-4 border-[#A8415B]">
+              <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-sm border-l-4 border-[#7C3AED]">
                 <h3 className="text-xl font-bold text-gray-800 mb-3">
                   Fluid Bed Dryers
                 </h3>
@@ -274,7 +274,7 @@ import { motion, useInView, useAnimation } from 'framer-motion';
                 </p>
               </div>
 
-              <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-sm border-l-4 border-[#A8415B]">
+              <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-sm border-l-4 border-[#7C3AED]">
                 <h3 className="text-xl font-bold text-gray-800 mb-3">
                   Belt Dryers
                 </h3>
@@ -285,7 +285,7 @@ import { motion, useInView, useAnimation } from 'framer-motion';
                 </p>
               </div>
 
-              <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-sm border-l-4 border-[#A8415B]">
+              <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-sm border-l-4 border-[#7C3AED]">
                 <h3 className="text-xl font-bold text-gray-800 mb-3">
                   Granulation Technology
                 </h3>
@@ -312,7 +312,7 @@ import { motion, useInView, useAnimation } from 'framer-motion';
         </motion.section>
 
         {/* Quality Control & Testing */}
-        <section className="py-16 px-6 md:px-20 lg:px-32 bg-[#e7dfd9]/50">
+        <section className="py-16 px-6 md:px-20 lg:px-32 bg-[#FDFCFB]/50">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -449,7 +449,7 @@ import { motion, useInView, useAnimation } from 'framer-motion';
             className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 relative inline-block"
           >
             Sustainable Practices for a Greener Future
-            <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-[#A8415B] -mb-2"></span>
+            <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-[#7C3AED] -mb-2"></span>
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -457,14 +457,14 @@ import { motion, useInView, useAnimation } from 'framer-motion';
               variants={fadeInUp}
               className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="w-16 h-16 bg-[#A8415B]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
+              <div className="w-16 h-16 bg-[#7C3AED]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#A8415B"
+                  stroke="#7C3AED"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -486,14 +486,14 @@ import { motion, useInView, useAnimation } from 'framer-motion';
               variants={fadeInUp}
               className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="w-16 h-16 bg-[#A8415B]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
+              <div className="w-16 h-16 bg-[#7C3AED]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#A8415B"
+                  stroke="#7C3AED"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -515,14 +515,14 @@ import { motion, useInView, useAnimation } from 'framer-motion';
               variants={fadeInUp}
               className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="w-16 h-16 bg-[#A8415B]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
+              <div className="w-16 h-16 bg-[#7C3AED]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#A8415B"
+                  stroke="#7C3AED"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -544,7 +544,7 @@ import { motion, useInView, useAnimation } from 'framer-motion';
         </motion.section>
 
         {/* The Finished Product Section */}
-        <section className="py-16 px-6 md:px-20 lg:px-32 bg-[#e7dfd9]/50">
+        <section className="py-16 px-6 md:px-20 lg:px-32 bg-[#FDFCFB]/50">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -615,7 +615,7 @@ import { motion, useInView, useAnimation } from 'framer-motion';
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="relative py-20 px-6 md:px-20 lg:px-32 bg-[#A8415B] overflow-hidden"
+          className="relative py-20 px-6 md:px-20 lg:px-32 bg-[#7C3AED] overflow-hidden"
         >
           <div className="absolute inset-0 opacity-10">
             <Image
@@ -640,7 +640,7 @@ import { motion, useInView, useAnimation } from 'framer-motion';
                 href="mailto:yash@belanaro.com"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white text-[#A8415B] py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-300 font-bold shadow-lg flex items-center"
+                className="bg-white text-[#7C3AED] py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-300 font-bold shadow-lg flex items-center"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -44,8 +44,8 @@ const CSRStoryDetail = () => {
   if (loading) {
     return (
       <Suspense fallback={'something went wrong..'}>
-        <div className="min-h-screen flex items-center justify-center bg-[#f5f3f0]">
-          <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#A8415B]"></div>
+        <div className="min-h-screen flex items-center justify-center bg-[#FDFCFB]">
+          <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#7C3AED]"></div>
         </div>
       </Suspense>
     );
@@ -54,7 +54,7 @@ const CSRStoryDetail = () => {
   if (!story || !pillar) {
     return (
       <Suspense fallback={'something went wrong..'}>
-        <div className="min-h-screen flex flex-col items-center justify-center bg-[#f5f3f0] px-4">
+        <div className="min-h-screen flex flex-col items-center justify-center bg-[#FDFCFB] px-4">
           <h1 className="text-3xl font-bold text-gray-800 mb-4">
             Story Not Found
           </h1>
@@ -63,7 +63,7 @@ const CSRStoryDetail = () => {
           </p>
           <Link
             href="/csr"
-            className="bg-[#A8415B] text-white py-2 px-6 rounded-lg hover:bg-[#923a4f] transition-colors"
+            className="bg-[#7C3AED] text-white py-2 px-6 rounded-lg hover:bg-[#923a4f] transition-colors"
           >
             Return to CSR Page
           </Link>
@@ -74,10 +74,10 @@ const CSRStoryDetail = () => {
 
   return (
     <Suspense fallback={'something went wrong..'}>
-      <div className="bg-[#f5f3f0] min-h-screen">
+      <div className="bg-[#FDFCFB] min-h-screen">
         {/* Hero Section with Story Image */}
         <div className="relative h-[50vh] overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-[#A8415B]/80 to-[#A8415B]/40 z-10"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#7C3AED]/80 to-[#7C3AED]/40 z-10"></div>
           <div className="absolute inset-0 bg-black/30 z-10"></div>
           <div className="absolute inset-0">
             <Image
@@ -125,7 +125,7 @@ const CSRStoryDetail = () => {
               </div>
             </motion.div>
           </div>
-          <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-[#f5f3f0] to-transparent z-10"></div>
+          <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-[#FDFCFB] to-transparent z-10"></div>
         </div>
 
         {/* Story Content */}
@@ -151,7 +151,7 @@ const CSRStoryDetail = () => {
                 results that align with our {pillar.title} pillar.
               </p>
 
-              <h2 className="text-2xl font-bold text-[#A8415B] mt-8 mb-4">
+              <h2 className="text-2xl font-bold text-[#7C3AED] mt-8 mb-4">
                 The Challenge
               </h2>
               <p>
@@ -187,7 +187,7 @@ const CSRStoryDetail = () => {
                 </div>
               </div>
 
-              <h2 className="text-2xl font-bold text-[#A8415B] mt-8 mb-4">
+              <h2 className="text-2xl font-bold text-[#7C3AED] mt-8 mb-4">
                 Our Approach
               </h2>
               <p>
@@ -198,7 +198,7 @@ const CSRStoryDetail = () => {
                 involvement would create lasting positive change.
               </p>
 
-              <blockquote className="border-l-4 border-[#A8415B] pl-6 italic my-8 py-2">
+              <blockquote className="border-l-4 border-[#7C3AED] pl-6 italic my-8 py-2">
                 &quot;This initiative has completely changed our
                 community&apos;s outlook. We&apos;re now empowered with the
                 skills and resources to build better futures for ourselves and
@@ -208,7 +208,7 @@ const CSRStoryDetail = () => {
                 </footer>
               </blockquote>
 
-              <h2 className="text-2xl font-bold text-[#A8415B] mt-8 mb-4">
+              <h2 className="text-2xl font-bold text-[#7C3AED] mt-8 mb-4">
                 Measurable Impact
               </h2>
               <p>
@@ -228,7 +228,7 @@ const CSRStoryDetail = () => {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-[#A8415B] mt-8 mb-4">
+              <h2 className="text-2xl font-bold text-[#7C3AED] mt-8 mb-4">
                 Looking Forward
               </h2>
               <p>
@@ -297,7 +297,7 @@ const CSRStoryDetail = () => {
                           {relatedStory.content}
                         </p>
                         <div className="flex justify-end mt-4">
-                          <span className="text-[#A8415B] font-medium">
+                          <span className="text-[#7C3AED] font-medium">
                             Read More
                           </span>
                         </div>
@@ -313,7 +313,7 @@ const CSRStoryDetail = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="bg-[#A8415B] text-white py-16"
+            className="bg-[#7C3AED] text-white py-16"
           >
             <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
               <h2 className="text-3xl font-bold mb-6">
@@ -327,7 +327,7 @@ const CSRStoryDetail = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white text-[#A8415B] py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg font-medium"
+                className="bg-white text-[#7C3AED] py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg font-medium"
               >
                 Get Involved
               </motion.button>

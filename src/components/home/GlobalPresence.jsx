@@ -65,7 +65,7 @@ const GlobalPresence = () => {
   }, []);
 
   return (
-    <section className="py-20 bg-[#e7dfd9] overflow-hidden relative">
+    <section className="py-20 bg-[#FDFCFB] overflow-hidden relative">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-white to-transparent"></div>
       <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent"></div>
@@ -79,7 +79,7 @@ const GlobalPresence = () => {
           className="text-center mb-12"
         >
           <motion.span
-            className="inline-block px-5 py-2 bg-gradient-to-r from-pink-100 via-pink-200 to-pink-100 text-[#A8415B] border border-[#A8415B] rounded-full text-base font-bold shadow-md uppercase tracking-wide"
+            className="inline-block px-5 py-2 bg-gradient-to-r from-pink-100 via-pink-200 to-pink-100 text-[#7C3AED] border border-[#7C3AED] rounded-full text-base font-bold shadow-md uppercase tracking-wide"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.5 }}
@@ -102,7 +102,7 @@ const GlobalPresence = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
-            className="relative w-full aspect-[16/9] bg-[#e7dfd9] rounded-2xl overflow-hidden shadow-xl"
+            className="relative w-full aspect-[16/9] bg-[#FDFCFB] rounded-2xl overflow-hidden shadow-xl"
           >
             <div className="absolute inset-0 bg-blue-200 opacity-30 bg-map-pattern"></div>
             <img
@@ -121,8 +121,8 @@ const GlobalPresence = () => {
               >
                 <div className="relative">
                   <div className="absolute -translate-x-1/2 -translate-y-1/2">
-                    <div className="w-4 h-4 bg-[#A8415B] rounded-full flex items-center justify-center">
-                      <div className="w-6 h-6 bg-[#A8415B] rounded-full animate-ping absolute opacity-75"></div>
+                    <div className="w-4 h-4 bg-[#7C3AED] rounded-full flex items-center justify-center">
+                      <div className="w-6 h-6 bg-[#7C3AED] rounded-full animate-ping absolute opacity-75"></div>
                     </div>
                   </div>
 
@@ -157,19 +157,19 @@ const GlobalPresence = () => {
           </h3>
 
           <div className="flex items-center justify-center flex-wrap gap-4 mb-6">
-            <span className="inline-block px-4 py-2 bg-white text-[#A8415B] rounded-full text-sm font-medium shadow">
+            <span className="inline-block px-4 py-2 bg-white text-[#7C3AED] rounded-full text-sm font-medium shadow">
               Spice & Food Distributors
             </span>
-            <span className="inline-block px-4 py-2 bg-white text-[#A8415B] rounded-full text-sm font-medium shadow">
+            <span className="inline-block px-4 py-2 bg-white text-[#7C3AED] rounded-full text-sm font-medium shadow">
               Food Ingredient Importers
             </span>
-            <span className="inline-block px-4 py-2 bg-white text-[#A8415B] rounded-full text-sm font-medium shadow">
+            <span className="inline-block px-4 py-2 bg-white text-[#7C3AED] rounded-full text-sm font-medium shadow">
               Private Label Brands
             </span>
-            <span className="inline-block px-4 py-2 bg-white text-[#A8415B] rounded-full text-sm font-medium shadow">
+            <span className="inline-block px-4 py-2 bg-white text-[#7C3AED] rounded-full text-sm font-medium shadow">
               Packaged Food Companies
             </span>
-            <span className="inline-block px-4 py-2 bg-white text-[#A8415B] rounded-full text-sm font-medium shadow">
+            <span className="inline-block px-4 py-2 bg-white text-[#7C3AED] rounded-full text-sm font-medium shadow">
               Frozen Food Manufacturers
             </span>
           </div>
@@ -184,7 +184,7 @@ const GlobalPresence = () => {
           >
             <a
               href="/contact"
-              className="px-6 py-3 border-2 text-white font-medium rounded-lg shadow-md bg-[#A8415B] transition-all duration-300 hover:shadow-lg"
+              className="px-6 py-3 border-2 text-white font-medium rounded-lg shadow-md bg-[#7C3AED] transition-all duration-300 hover:shadow-lg"
             >
               Get in Touch
             </a>

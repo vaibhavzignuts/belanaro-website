@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const DealershipClientPage = () => {
   return (
-    <div className="bg-[#f5f3f0] min-h-screen">
+    <div className="bg-[#FDFCFB] min-h-screen">
       {/* Hero Banner */}
       <div className="relative h-[50vh] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/20 z-10" />
@@ -58,7 +58,7 @@ const DealershipClientPage = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Where Trust Meets Growth.
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </div>
 
           <div className="bg-white rounded-lg p-8 shadow-lg mb-12">
@@ -166,7 +166,7 @@ const DealershipClientPage = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Built for Global Dealers Who Think Big
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -223,7 +223,7 @@ const DealershipClientPage = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Choose Your Dealership Model
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -232,9 +232,9 @@ const DealershipClientPage = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="bg-white rounded-lg p-8 shadow-lg border-t-4 border-[#A8415B]"
+              className="bg-white rounded-lg p-8 shadow-lg border-t-4 border-[#7C3AED]"
             >
-              <div className="text-4xl mb-4 text-[#A8415B]">🌐</div>
+              <div className="text-4xl mb-4 text-[#7C3AED]">🌐</div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 Exclusive Importer
               </h3>
@@ -248,9 +248,9 @@ const DealershipClientPage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
-              className="bg-white rounded-lg p-8 shadow-lg border-t-4 border-[#A8415B]"
+              className="bg-white rounded-lg p-8 shadow-lg border-t-4 border-[#7C3AED]"
             >
-              <div className="text-4xl mb-4 text-[#A8415B]">🏙</div>
+              <div className="text-4xl mb-4 text-[#7C3AED]">🏙</div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 City/State Distributor
               </h3>
@@ -264,9 +264,9 @@ const DealershipClientPage = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
-              className="bg-white rounded-lg p-8 shadow-lg border-t-4 border-[#A8415B]"
+              className="bg-white rounded-lg p-8 shadow-lg border-t-4 border-[#7C3AED]"
             >
-              <div className="text-4xl mb-4 text-[#A8415B]">🧴</div>
+              <div className="text-4xl mb-4 text-[#7C3AED]">🧴</div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 Private Label Partner
               </h3>
@@ -293,31 +293,31 @@ const DealershipClientPage = () => {
 
           <ul className="space-y-4 text-gray-600 max-w-3xl mx-auto">
             <li className="flex items-start">
-              <span className="text-[#A8415B] mr-3 font-bold text-xl">✅</span>
+              <span className="text-[#7C3AED] mr-3 font-bold text-xl">✅</span>
               <span className="text-lg">
                 Import, distribute, or wholesale dehydrated food ingredients
               </span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#A8415B] mr-3 font-bold text-xl">✅</span>
+              <span className="text-[#7C3AED] mr-3 font-bold text-xl">✅</span>
               <span className="text-lg">
                 Are a brand owner or spice product repacker
               </span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#A8415B] mr-3 font-bold text-xl">✅</span>
+              <span className="text-[#7C3AED] mr-3 font-bold text-xl">✅</span>
               <span className="text-lg">
                 Want factory-direct dehydrated garlic/onion at competitive rates
               </span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#A8415B] mr-3 font-bold text-xl">✅</span>
+              <span className="text-[#7C3AED] mr-3 font-bold text-xl">✅</span>
               <span className="text-lg">
                 Need quality, certification, and logistics you can trust
               </span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#A8415B] mr-3 font-bold text-xl">✅</span>
+              <span className="text-[#7C3AED] mr-3 font-bold text-xl">✅</span>
               <span className="text-lg">
                 Prefer a supportive partner, not just a supplier
               </span>
@@ -331,7 +331,7 @@ const DealershipClientPage = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-[#A8415B]/10 rounded-2xl p-10 md:p-16"
+          className="bg-[#7C3AED]/10 rounded-2xl p-10 md:p-16"
         >
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
@@ -431,7 +431,7 @@ const DealershipClientPage = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-[#A8415B] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-lg"
+                  className="bg-[#7C3AED] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-lg"
                 >
                   Submit Inquiry
                 </motion.button>

@@ -82,7 +82,7 @@ const CSRClientPage = () => {
   ];
 
   return (
-    <div className="bg-[#f5f3f0] min-h-screen">
+    <div className="bg-[#FDFCFB] min-h-screen">
       {/* Hero Banner */}
       <div className="relative h-[50vh] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/20 z-10" />
@@ -152,7 +152,7 @@ const CSRClientPage = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Our Initiatives in Action
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -193,7 +193,7 @@ const CSRClientPage = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Our Initiatives: Real Action, Real Impact
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </div>
 
           <div className="bg-white rounded-lg p-8 shadow-lg">
@@ -212,19 +212,19 @@ const CSRClientPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ul className="space-y-4 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">📚</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">📚</span>
                   <span className="text-lg">
                     Education drives for underprivileged students
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">🍲</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">🍲</span>
                   <span className="text-lg">
                     Food distribution programs powered by our dehydrated meals
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">🧹</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">🧹</span>
                   <span className="text-lg">
                     Cleanliness campaigns promoting hygiene and Swachh Bharat
                     ideals
@@ -233,19 +233,19 @@ const CSRClientPage = () => {
               </ul>
               <ul className="space-y-4 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">🌳</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">🌳</span>
                   <span className="text-lg">
                     Tree plantation and green farming awareness
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">👩</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">👩</span>
                   <span className="text-lg">
                     Women empowerment through skill-building and employment
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">🏥</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">🏥</span>
                   <span className="text-lg">
                     Medical camps in underserved communities
                   </span>
@@ -274,7 +274,7 @@ const CSRClientPage = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Our Commitment
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -315,7 +315,7 @@ const CSRClientPage = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-[#A8415B]/10 rounded-2xl p-10 md:p-16 text-center"
+          className="bg-[#7C3AED]/10 rounded-2xl p-10 md:p-16 text-center"
         >
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
             Want to Partner in Impact?
@@ -326,7 +326,7 @@ const CSRClientPage = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-[#A8415B] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-lg"
+            className="bg-[#7C3AED] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-lg"
           >
             Contact Our CSR Team
           </motion.button>

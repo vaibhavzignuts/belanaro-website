@@ -116,7 +116,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="bg-[#f5f3f0] min-h-screen">
+    <div className="bg-[#FDFCFB] min-h-screen">
       {/* Hero Section */}
       <div className="relative h-[40vh] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30 z-10" />
@@ -158,8 +158,8 @@ const ContactPage = () => {
             viewport={{ once: true }}
             className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center"
           >
-            <div className="w-16 h-16 bg-[#A8415B]/10 flex items-center justify-center rounded-full mb-4">
-              <MapPin size={24} className="text-[#A8415B]" />
+            <div className="w-16 h-16 bg-[#7C3AED]/10 flex items-center justify-center rounded-full mb-4">
+              <MapPin size={24} className="text-[#7C3AED]" />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">
               Our Location
@@ -180,14 +180,14 @@ const ContactPage = () => {
             viewport={{ once: true }}
             className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center"
           >
-            <div className="w-16 h-16 bg-[#A8415B]/10 flex items-center justify-center rounded-full mb-4">
-              <Phone size={24} className="text-[#A8415B]" />
+            <div className="w-16 h-16 bg-[#7C3AED]/10 flex items-center justify-center rounded-full mb-4">
+              <Phone size={24} className="text-[#7C3AED]" />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Phone</h3>
             <p className="text-gray-600">+91 8735030126</p>
             <a
               href="tel:+918735030126"
-              className="mt-4 text-[#A8415B] font-medium hover:underline"
+              className="mt-4 text-[#7C3AED] font-medium hover:underline"
             >
               Call Now
             </a>
@@ -200,14 +200,14 @@ const ContactPage = () => {
             viewport={{ once: true }}
             className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center"
           >
-            <div className="w-16 h-16 bg-[#A8415B]/10 flex items-center justify-center rounded-full mb-4">
-              <Mail size={24} className="text-[#A8415B]" />
+            <div className="w-16 h-16 bg-[#7C3AED]/10 flex items-center justify-center rounded-full mb-4">
+              <Mail size={24} className="text-[#7C3AED]" />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Email</h3>
             <p className="text-gray-600">jayom@belanaro.com</p>
             <a
               href="mailto:jayom@belanaro.com"
-              className="mt-4 text-[#A8415B] font-medium hover:underline"
+              className="mt-4 text-[#7C3AED] font-medium hover:underline"
             >
               Send Email
             </a>
@@ -220,8 +220,8 @@ const ContactPage = () => {
             viewport={{ once: true }}
             className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center"
           >
-            <div className="w-16 h-16 bg-[#A8415B]/10 flex items-center justify-center rounded-full mb-4">
-              <Globe size={24} className="text-[#A8415B]" />
+            <div className="w-16 h-16 bg-[#7C3AED]/10 flex items-center justify-center rounded-full mb-4">
+              <Globe size={24} className="text-[#7C3AED]" />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Website</h3>
             <p className="text-gray-600">www.belanaro.com</p>
@@ -229,7 +229,7 @@ const ContactPage = () => {
               href="https://www.belanaro.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 text-[#A8415B] font-medium hover:underline"
+              className="mt-4 text-[#7C3AED] font-medium hover:underline"
             >
               Visit Site
             </a>
@@ -249,7 +249,7 @@ const ContactPage = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-6">
               Let&apos;s Grow Together
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mb-6"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mb-6"></div>
             <p className="text-gray-600 mb-8">
               At Belanaro Group, we are committed to providing high-quality
               dehydrated onion, garlic, and vegetable powders to importers,
@@ -264,25 +264,25 @@ const ContactPage = () => {
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 mt-1">✓</span>
+                  <span className="text-[#7C3AED] mr-3 mt-1">✓</span>
                   <p className="text-gray-600">
                     Direct Manufacturer – Best Prices & Quality Assurance
                   </p>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 mt-1">✓</span>
+                  <span className="text-[#7C3AED] mr-3 mt-1">✓</span>
                   <p className="text-gray-600">
                     Worldwide Shipping – Smooth, Hassle-Free Logistics
                   </p>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 mt-1">✓</span>
+                  <span className="text-[#7C3AED] mr-3 mt-1">✓</span>
                   <p className="text-gray-600">
                     Custom Packaging & Branding Solutions
                   </p>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 mt-1">✓</span>
+                  <span className="text-[#7C3AED] mr-3 mt-1">✓</span>
                   <p className="text-gray-600">
                     24/7 Customer Support – Quick Response to All Queries
                   </p>
@@ -290,7 +290,7 @@ const ContactPage = () => {
               </ul>
             </div>
 
-            <div className="bg-[#A8415B]/10 rounded-xl p-6">
+            <div className="bg-[#7C3AED]/10 rounded-xl p-6">
               <h3 className="text-xl font-bold text-gray-800 mb-4">
                 Quick Connect
               </h3>
@@ -314,7 +314,7 @@ const ContactPage = () => {
                 </a>
                 <a
                   href="mailto:jayom@belanaro.com"
-                  className="flex items-center bg-[#A8415B] text-white px-4 py-2 rounded-lg hover:bg-[#8a3349] transition-colors"
+                  className="flex items-center bg-[#7C3AED] text-white px-4 py-2 rounded-lg hover:bg-[#8a3349] transition-colors"
                 >
                   <Mail size={18} className="mr-2" />
                   Email
@@ -392,7 +392,7 @@ const ContactPage = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A8415B] focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7C3AED] focus:border-transparent"
                       required
                     />
                   </motion.div>
@@ -410,7 +410,7 @@ const ContactPage = () => {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A8415B] focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7C3AED] focus:border-transparent"
                       required
                     />
                   </motion.div>
@@ -428,7 +428,7 @@ const ContactPage = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A8415B] focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7C3AED] focus:border-transparent"
                     />
                   </motion.div>
 
@@ -445,7 +445,7 @@ const ContactPage = () => {
                       name="company"
                       value={formData.company}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A8415B] focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7C3AED] focus:border-transparent"
                     />
                   </motion.div>
                 </div>
@@ -462,7 +462,7 @@ const ContactPage = () => {
                     name="inquiryType"
                     value={formData.inquiryType}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A8415B] focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7C3AED] focus:border-transparent"
                     required
                   >
                     <option value="business">Business Inquiry</option>
@@ -486,7 +486,7 @@ const ContactPage = () => {
                     value={formData.message}
                     onChange={handleChange}
                     rows="5"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A8415B] focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7C3AED] focus:border-transparent"
                     required
                   ></textarea>
                 </motion.div>
@@ -498,7 +498,7 @@ const ContactPage = () => {
                     className={`flex items-center justify-center w-full md:w-auto px-8 py-3 rounded-lg text-white font-medium transition-colors ${
                       formStatus.submitting
                         ? 'bg-gray-400'
-                        : 'bg-[#A8415B] hover:bg-[#8a3349]'
+                        : 'bg-[#7C3AED] hover:bg-[#8a3349]'
                     }`}
                   >
                     {formStatus.submitting ? (

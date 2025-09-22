@@ -38,7 +38,7 @@ const WorkshopClientPage = () => {
   ];
 
   return (
-    <div className="bg-[#f5f3f0] min-h-screen">
+    <div className="bg-[#FDFCFB] min-h-screen">
       {/* Header Banner */}
       <div className="relative h-[50vh] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/20 z-10" />
@@ -91,7 +91,7 @@ const WorkshopClientPage = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               State-of-the-Art Infrastructure, Globally Trusted Quality
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </div>
 
           <div className="bg-white rounded-lg p-8 shadow-lg">
@@ -122,7 +122,7 @@ const WorkshopClientPage = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Workshop Gallery
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -163,40 +163,40 @@ const WorkshopClientPage = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Built for Global Export. Loved by Importers Worldwide.
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </div>
 
           <div className="bg-white rounded-lg p-8 shadow-lg">
             <ul className="space-y-4 text-gray-600 max-w-3xl mx-auto">
               <li className="flex items-start">
-                <span className="text-[#A8415B] mr-3 font-bold text-xl">✔</span>
+                <span className="text-[#7C3AED] mr-3 font-bold text-xl">✔</span>
                 <span className="text-lg">
                   Own dehydration & packing unit – not third-party processors
                 </span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#A8415B] mr-3 font-bold text-xl">✔</span>
+                <span className="text-[#7C3AED] mr-3 font-bold text-xl">✔</span>
                 <span className="text-lg">
                   Ideal for bulk dried vegetables, dehydrated camping food, and
                   private label spice exporters
                 </span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#A8415B] mr-3 font-bold text-xl">✔</span>
+                <span className="text-[#7C3AED] mr-3 font-bold text-xl">✔</span>
                 <span className="text-lg">
                   Dehydrated food business support – documentation, COA, MSDS &
                   export labels
                 </span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#A8415B] mr-3 font-bold text-xl">✔</span>
+                <span className="text-[#7C3AED] mr-3 font-bold text-xl">✔</span>
                 <span className="text-lg">
                   Transparent processes – open to third-party audits & importer
                   inspections
                 </span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#A8415B] mr-3 font-bold text-xl">✔</span>
+                <span className="text-[#7C3AED] mr-3 font-bold text-xl">✔</span>
                 <span className="text-lg">
                   Gujarat-based dehydrated food manufacturers with proven export
                   record
@@ -236,7 +236,7 @@ const WorkshopClientPage = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-[#A8415B] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-lg"
+                className="bg-[#7C3AED] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-lg"
               >
                 Visit More Products
               </motion.button>

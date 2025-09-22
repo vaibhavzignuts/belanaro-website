@@ -68,7 +68,7 @@ export default function RootLayout({ children }) {
             initial={{ y: -100 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="sticky top-0 bg-[#e7dfd9]/90 backdrop-blur-sm z-30 shadow-md"
+            className="sticky top-0 bg-[#FDFCFB]/90 backdrop-blur-sm z-30 shadow-md"
           >
             <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-4 md:px-10">
               {/* Logo */}
@@ -99,8 +99,8 @@ export default function RootLayout({ children }) {
                         className={`relative px-3 py-2 mx-1 rounded-md transition-all duration-300 text-sm md:text-base font-medium flex items-center
                         ${
                           isActive
-                            ? 'text-[#A8415B] font-semibold'
-                            : 'text-gray-700 hover:text-[#A8415B]'
+                            ? 'text-[#7C3AED] font-semibold'
+                            : 'text-gray-700 hover:text-[#7C3AED]'
                         }`}
                       >
                         {item.label}
@@ -123,7 +123,7 @@ export default function RootLayout({ children }) {
                         {isActive && !item.subItems && (
                           <motion.span
                             layoutId="activeNavIndicator"
-                            className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#A8415B] rounded-full"
+                            className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#7C3AED] rounded-full"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ duration: 0.3 }}
@@ -142,8 +142,8 @@ export default function RootLayout({ children }) {
                                   href={subItem.path}
                                   className={`block px-4 py-2 text-sm ${
                                     isSubActive
-                                      ? 'bg-gray-100 text-[#A8415B] font-medium'
-                                      : 'text-gray-700 hover:bg-gray-50 hover:text-[#A8415B]'
+                                      ? 'bg-gray-100 text-[#7C3AED] font-medium'
+                                      : 'text-gray-700 hover:bg-gray-50 hover:text-[#7C3AED]'
                                   }`}
                                 >
                                   {subItem.label}
@@ -219,8 +219,8 @@ export default function RootLayout({ children }) {
                               }
                               className={`flex-1 py-3 text-left font-medium transition-colors duration-200 ${
                                 isActive
-                                  ? 'text-[#A8415B] font-semibold'
-                                  : 'text-gray-700 hover:text-[#A8415B]'
+                                  ? 'text-[#7C3AED] font-semibold'
+                                  : 'text-gray-700 hover:text-[#7C3AED]'
                               }`}
                             >
                               {item.label}
@@ -228,7 +228,7 @@ export default function RootLayout({ children }) {
                             {item.subItems && (
                               <button
                                 onClick={() => toggleSubmenu(item.path)}
-                                className="p-2 text-gray-500 hover:text-[#A8415B] transition-colors duration-200"
+                                className="p-2 text-gray-500 hover:text-[#7C3AED] transition-colors duration-200"
                                 aria-label={`Toggle ${item.label} submenu`}
                               >
                                 <motion.svg
@@ -271,8 +271,8 @@ export default function RootLayout({ children }) {
                                       onClick={closeMobileMenu}
                                       className={`block py-2 text-sm transition-colors duration-200 ${
                                         isSubActive
-                                          ? 'text-[#A8415B] font-medium'
-                                          : 'text-gray-600 hover:text-[#A8415B]'
+                                          ? 'text-[#7C3AED] font-medium'
+                                          : 'text-gray-600 hover:text-[#7C3AED]'
                                       }`}
                                     >
                                       {subItem.label}

@@ -60,7 +60,7 @@ export default function ProductDetailsPage({}) {
           <h1 className="text-2xl font-bold text-gray-800 mb-4">
             Product Not Found
           </h1>
-          <Link href="/products" className="text-[#A8415B] hover:underline">
+          <Link href="/products" className="text-[#7C3AED] hover:underline">
             Back to Categories
           </Link>
         </div>
@@ -105,13 +105,13 @@ export default function ProductDetailsPage({}) {
       <section className="bg-white border-b border-gray-200">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center text-sm text-gray-600 flex-wrap">
-            <Link href="/products" className="hover:text-[#A8415B]">
+            <Link href="/products" className="hover:text-[#7C3AED]">
               Categories
             </Link>
             <ArrowRight className="h-4 w-4 mx-2" />
             <Link
               href={`/products/${categoryId}`}
-              className="hover:text-[#A8415B]"
+              className="hover:text-[#7C3AED]"
             >
               {categoryInfo.title}
             </Link>
@@ -162,7 +162,7 @@ export default function ProductDetailsPage({}) {
                         onClick={() => setSelectedImageIndex(index)}
                         className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-colors ${
                           selectedImageIndex === index
-                            ? 'border-[#A8415B]'
+                            ? 'border-[#7C3AED]'
                             : 'border-gray-200'
                         }`}
                       >
@@ -183,7 +183,7 @@ export default function ProductDetailsPage({}) {
               <div>
                 <div className="mb-6">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-sm font-medium text-[#A8415B] bg-[#A8415B]/10 px-3 py-1 rounded-full">
+                    <span className="text-sm font-medium text-[#7C3AED] bg-[#7C3AED]/10 px-3 py-1 rounded-full">
                       {categoryInfo.title}
                     </span>
                     <button
@@ -204,7 +204,7 @@ export default function ProductDetailsPage({}) {
                   {/* Key Features */}
                   <div className="grid md:grid-cols-3 gap-4 mb-8">
                     <div className="flex items-center gap-3 p-4 bg-gray-50 rounded-lg">
-                      <Award className="h-6 w-6 text-[#A8415B]" />
+                      <Award className="h-6 w-6 text-[#7C3AED]" />
                       <div>
                         <div className="font-semibold text-sm">
                           Premium Quality
@@ -213,14 +213,14 @@ export default function ProductDetailsPage({}) {
                       </div>
                     </div>
                     <div className="flex items-center gap-3 p-4 bg-gray-50 rounded-lg">
-                      <Shield className="h-6 w-6 text-[#A8415B]" />
+                      <Shield className="h-6 w-6 text-[#7C3AED]" />
                       <div>
                         <div className="font-semibold text-sm">Certified</div>
                         <div className="text-xs text-gray-600">Food Safe</div>
                       </div>
                     </div>
                     <div className="flex items-center gap-3 p-4 bg-gray-50 rounded-lg">
-                      <Truck className="h-6 w-6 text-[#A8415B]" />
+                      <Truck className="h-6 w-6 text-[#7C3AED]" />
                       <div>
                         <div className="font-semibold text-sm">
                           Global Shipping
@@ -259,7 +259,7 @@ export default function ProductDetailsPage({}) {
                         <div className="grid md:grid-cols-2 gap-4">
                           {productDetail.specifications.map((spec, idx) => (
                             <div key={idx} className="flex items-start gap-3">
-                              <CheckCircle className="h-5 w-5 text-[#A8415B] mt-0.5 flex-shrink-0" />
+                              <CheckCircle className="h-5 w-5 text-[#7C3AED] mt-0.5 flex-shrink-0" />
                               <span className="text-gray-700">{spec}</span>
                             </div>
                           ))}
@@ -297,7 +297,7 @@ export default function ProductDetailsPage({}) {
                         <div className="grid md:grid-cols-2 gap-4">
                           {productDetail.applications.map((app, idx) => (
                             <div key={idx} className="flex items-start gap-3">
-                              <ShoppingBag className="h-5 w-5 text-[#A8415B] mt-0.5 flex-shrink-0" />
+                              <ShoppingBag className="h-5 w-5 text-[#7C3AED] mt-0.5 flex-shrink-0" />
                               <span className="text-gray-700">{app}</span>
                             </div>
                           ))}
@@ -312,14 +312,14 @@ export default function ProductDetailsPage({}) {
                   <motion.button
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="flex-1 bg-[#A8415B] text-white px-6 py-4 rounded-lg font-semibold flex items-center justify-center shadow-lg hover:bg-[#8f3650] transition-colors"
+                    className="flex-1 bg-[#7C3AED] text-white px-6 py-4 rounded-lg font-semibold flex items-center justify-center shadow-lg hover:bg-[#8f3650] transition-colors"
                   >
                     Request Quote <ArrowRight className="ml-2 h-5 w-5" />
                   </motion.button>
                   <motion.button
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="flex-1 border-2 border-[#A8415B] text-[#A8415B] px-6 py-4 rounded-lg font-semibold flex items-center justify-center hover:bg-[#A8415B] hover:text-white transition-colors"
+                    className="flex-1 border-2 border-[#7C3AED] text-[#7C3AED] px-6 py-4 rounded-lg font-semibold flex items-center justify-center hover:bg-[#7C3AED] hover:text-white transition-colors"
                   >
                     Download Spec Sheet <Download className="ml-2 h-5 w-5" />
                   </motion.button>
@@ -341,7 +341,7 @@ export default function ProductDetailsPage({}) {
                 </h2>
                 <Link
                   href={`/products/${categoryId}`}
-                  className="text-[#A8415B] font-medium hover:underline flex items-center"
+                  className="text-[#7C3AED] font-medium hover:underline flex items-center"
                 >
                   View All <ArrowRight className="ml-1 h-4 w-4" />
                 </Link>
@@ -379,7 +379,7 @@ export default function ProductDetailsPage({}) {
                       <p className="text-gray-600 text-sm line-clamp-2 mb-3">
                         {product.description.split('.')[0]}.
                       </p>
-                      <span className="text-[#A8415B] text-sm font-medium flex items-center hover:underline">
+                      <span className="text-[#7C3AED] text-sm font-medium flex items-center hover:underline">
                         View Details <ArrowRight className="ml-1 h-3 w-3" />
                       </span>
                     </div>
@@ -392,7 +392,7 @@ export default function ProductDetailsPage({}) {
       )}
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-[#E7DFD9] to-[#F5F1EE]">
+      <section className="py-20 bg-gradient-to-br from-[#FDFCFB] to-[#F5F1EE]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
@@ -407,7 +407,7 @@ export default function ProductDetailsPage({}) {
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 href="https://wa.me/919909479990"
-                className="bg-[#A8415B] text-white p-5 rounded-xl font-medium flex items-center justify-center shadow-lg group"
+                className="bg-[#7C3AED] text-white p-5 rounded-xl font-medium flex items-center justify-center shadow-lg group"
               >
                 <Phone className="mr-3 h-5 w-5 group-hover:rotate-12 transition-transform" />
                 WhatsApp +91 99094 79990
@@ -415,7 +415,7 @@ export default function ProductDetailsPage({}) {
               <motion.button
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
-                className="bg-white text-[#A8415B] p-5 rounded-xl font-medium flex items-center justify-center shadow-md border-2 border-transparent hover:border-[#A8415B] transition-all group"
+                className="bg-white text-[#7C3AED] p-5 rounded-xl font-medium flex items-center justify-center shadow-md border-2 border-transparent hover:border-[#7C3AED] transition-all group"
               >
                 <Mail className="mr-3 h-5 w-5 group-hover:rotate-12 transition-transform" />
                 Send Inquiry

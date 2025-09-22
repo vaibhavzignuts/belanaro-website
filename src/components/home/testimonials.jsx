@@ -54,7 +54,7 @@ const CompactTestimonials = () => {
         {/* Header */}
         <div className="text-center mb-8">
           <motion.span
-            className="inline-block px-5 py-2 bg-gradient-to-r from-pink-100 via-pink-200 to-pink-100 text-[#A8415B] border border-[#A8415B] rounded-full text-base font-bold shadow-md uppercase tracking-wide"
+            className="inline-block px-5 py-2 bg-gradient-to-r from-pink-100 via-pink-200 to-pink-100 text-[#7C3AED] border border-[#7C3AED] rounded-full text-base font-bold shadow-md uppercase tracking-wide"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.5 }}
@@ -64,7 +64,7 @@ const CompactTestimonials = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
             What Our Clients Say
           </h2>
-          <div className="w-20 h-1 bg-[#a8415b] mx-auto mt-4"></div>
+          <div className="w-20 h-1 bg-[#7C3AED] mx-auto mt-4"></div>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             Real feedback from our satisfied clients across the globe
           </p>

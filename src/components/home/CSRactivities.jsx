@@ -111,7 +111,7 @@
 //   };
 
 //   return (
-//     <div className="bg-[#f5f3f0] min-h-screen" ref={containerRef}>
+//     <div className="bg-[#FDFCFB] min-h-screen" ref={containerRef}>
 //       {/* Hero Section */}
 //       <motion.div
 //         initial={{ opacity: 0 }}
@@ -119,7 +119,7 @@
 //         transition={{ duration: 1 }}
 //         className="relative h-[50vh] overflow-hidden"
 //       >
-//         <div className="absolute inset-0 bg-gradient-to-r from-[#A8415B]/80 to-[#A8415B]/40 z-10"></div>
+//         <div className="absolute inset-0 bg-gradient-to-r from-[#7C3AED]/80 to-[#7C3AED]/40 z-10"></div>
 //         <div className="absolute inset-0 bg-black/30 z-10"></div>
 //         <div className="absolute inset-0 flex flex-col">
 //           <Image
@@ -152,7 +152,7 @@
 //           initial={{ opacity: 0 }}
 //           animate={{ opacity: 1 }}
 //           transition={{ delay: 1.2, duration: 0.8 }}
-//           className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-[#f5f3f0] to-transparent z-10"
+//           className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-[#FDFCFB] to-transparent z-10"
 //         ></motion.div>
 //       </motion.div>
 
@@ -181,7 +181,7 @@
 //               expand our global reach, we stay rooted in our responsibility to
 //               people, the planet, and partnerships.
 //             </p>
-//             <div className="mt-6 font-bold text-[#A8415B] text-xl">
+//             <div className="mt-6 font-bold text-[#7C3AED] text-xl">
 //               Together, we grow. Together, we give back.
 //             </div>
 //           </div>
@@ -245,7 +245,7 @@
 //                       </p>
 //                       <button
 //                         onClick={() => handlePillarClick(pillar)}
-//                         className="flex items-center text-[#A8415B] font-medium hover:underline"
+//                         className="flex items-center text-[#7C3AED] font-medium hover:underline"
 //                       >
 //                         View More
 //                         <svg
@@ -284,7 +284,7 @@
 //               <div className="mb-8">
 //                 <button
 //                   onClick={handleBack}
-//                   className="flex items-center text-[#A8415B] hover:underline"
+//                   className="flex items-center text-[#7C3AED] hover:underline"
 //                 >
 //                   <svg
 //                     xmlns="http://www.w3.org/2000/svg"
@@ -316,7 +316,7 @@
 //                     >
 //                       <div className="bg-white/70 backdrop-blur-sm rounded-xl p-8 shadow-lg mb-8">
 //                         <div className="flex items-center gap-4 mb-4">
-//                           <div className="w-12 h-12 rounded-full bg-[#A8415B]/20 flex items-center justify-center text-[#A8415B]">
+//                           <div className="w-12 h-12 rounded-full bg-[#7C3AED]/20 flex items-center justify-center text-[#7C3AED]">
 //                             {activePillar?.icon}
 //                           </div>
 //                           <h2 className="text-3xl font-bold text-gray-800">
@@ -342,17 +342,17 @@
 //                                 delay: 0.5 + idx * 0.2,
 //                                 duration: 0.8,
 //                               }}
-//                               className="bg-[#f5f3f0] rounded-lg p-6 cursor-pointer hover:shadow-md transition-shadow"
+//                               className="bg-[#FDFCFB] rounded-lg p-6 cursor-pointer hover:shadow-md transition-shadow"
 //                               onClick={() => handleStoryClick(story)}
 //                             >
-//                               <h4 className="text-xl font-bold text-[#A8415B] mb-2">
+//                               <h4 className="text-xl font-bold text-[#7C3AED] mb-2">
 //                                 {story.title}
 //                               </h4>
 //                               <p className="text-gray-600 mb-4">
 //                                 {story.content}
 //                               </p>
 //                               <div className="flex justify-end">
-//                                 <button className="flex items-center text-[#A8415B] font-medium hover:underline">
+//                                 <button className="flex items-center text-[#7C3AED] font-medium hover:underline">
 //                                   Read Full Story
 //                                   <svg
 //                                     xmlns="http://www.w3.org/2000/svg"
@@ -419,7 +419,7 @@
 //                 >
 //                   <button
 //                     onClick={handleBackToOverview}
-//                     className="flex items-center text-[#A8415B] hover:underline mb-6"
+//                     className="flex items-center text-[#7C3AED] hover:underline mb-6"
 //                   >
 //                     <svg
 //                       xmlns="http://www.w3.org/2000/svg"
@@ -476,7 +476,7 @@
 //                           knowledge, and opportunities that were previously out
 //                           of reach.
 //                         </p>
-//                         <blockquote className="border-l-4 border-[#A8415B] pl-4 italic text-gray-600">
+//                         <blockquote className="border-l-4 border-[#7C3AED] pl-4 italic text-gray-600">
 //                           "This initiative has completely changed our
 //                           community's outlook. We're now empowered with the
 //                           skills and resources to build better futures for
@@ -507,7 +507,7 @@
 //         whileInView={{ opacity: 1, y: 0 }}
 //         viewport={{ once: true }}
 //         transition={{ duration: 0.8 }}
-//         className="bg-[#A8415B] text-white py-16"
+//         className="bg-[#7C3AED] text-white py-16"
 //       >
 //         <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
 //           <h2 className="text-3xl font-bold mb-6">
@@ -521,7 +521,7 @@
 //           <motion.button
 //             whileHover={{ scale: 1.05 }}
 //             whileTap={{ scale: 0.95 }}
-//             className="bg-white text-[#A8415B] py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg font-medium"
+//             className="bg-white text-[#7C3AED] py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg font-medium"
 //           >
 //             Get Involved
 //           </motion.button>
@@ -683,7 +683,7 @@ export const CSRActivities = () => {
   };
 
   return (
-    <div className="bg-[#f5f3f0] min-h-screen" ref={containerRef}>
+    <div className="bg-[#FDFCFB] min-h-screen" ref={containerRef}>
       {/* Hero Section */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -691,7 +691,7 @@ export const CSRActivities = () => {
         transition={{ duration: 1 }}
         className="relative h-[50vh] overflow-hidden"
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-[#A8415B]/80 to-[#A8415B]/40 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#7C3AED]/80 to-[#7C3AED]/40 z-10"></div>
         <div className="absolute inset-0 bg-black/30 z-10"></div>
         <div className="absolute inset-0 flex flex-col">
           <Image
@@ -724,7 +724,7 @@ export const CSRActivities = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.8 }}
-          className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-[#f5f3f0] to-transparent z-10"
+          className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-[#FDFCFB] to-transparent z-10"
         ></motion.div>
       </motion.div>
 
@@ -753,7 +753,7 @@ export const CSRActivities = () => {
               expand our global reach, we stay rooted in our responsibility to
               people, the planet, and partnerships.
             </p>
-            <div className="mt-6 font-bold text-[#A8415B] text-xl">
+            <div className="mt-6 font-bold text-[#7C3AED] text-xl">
               Together, we grow. Together, we give back.
             </div>
           </div>
@@ -817,7 +817,7 @@ export const CSRActivities = () => {
                       </p>
                       <button
                         onClick={() => handlePillarClick(pillar)}
-                        className="flex items-center text-[#A8415B] font-medium hover:underline"
+                        className="flex items-center text-[#7C3AED] font-medium hover:underline"
                       >
                         View More
                         <svg
@@ -856,7 +856,7 @@ export const CSRActivities = () => {
               <div className="mb-8">
                 <button
                   onClick={handleBack}
-                  className="flex items-center text-[#A8415B] hover:underline"
+                  className="flex items-center text-[#7C3AED] hover:underline"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -887,7 +887,7 @@ export const CSRActivities = () => {
                   >
                     <div className="bg-white/70 backdrop-blur-sm rounded-xl p-8 shadow-lg mb-8">
                       <div className="flex items-center gap-4 mb-4">
-                        <div className="w-12 h-12 rounded-full bg-[#A8415B]/20 flex items-center justify-center text-[#A8415B]">
+                        <div className="w-12 h-12 rounded-full bg-[#7C3AED]/20 flex items-center justify-center text-[#7C3AED]">
                           {activePillar?.icon}
                         </div>
                         <h2 className="text-3xl font-bold text-gray-800">
@@ -913,9 +913,9 @@ export const CSRActivities = () => {
                               delay: 0.5 + idx * 0.2,
                               duration: 0.8,
                             }}
-                            className="bg-[#f5f3f0] rounded-lg p-6 cursor-pointer hover:shadow-md transition-shadow"
+                            className="bg-[#FDFCFB] rounded-lg p-6 cursor-pointer hover:shadow-md transition-shadow"
                           >
-                            <h4 className="text-xl font-bold text-[#A8415B] mb-2">
+                            <h4 className="text-xl font-bold text-[#7C3AED] mb-2">
                               {story.title}
                             </h4>
                             <p className="text-gray-600 mb-4">
@@ -934,7 +934,7 @@ export const CSRActivities = () => {
                                     storyTitle: story.title,
                                   },
                                 }}
-                                className="flex items-center text-[#A8415B] font-medium hover:underline"
+                                className="flex items-center text-[#7C3AED] font-medium hover:underline"
                               >
                                 Read Full Story
                                 <svg
@@ -1003,7 +1003,7 @@ export const CSRActivities = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="bg-[#A8415B] text-white py-16"
+        className="bg-[#7C3AED] text-white py-16"
       >
         <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">
@@ -1017,7 +1017,7 @@ export const CSRActivities = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-white text-[#A8415B] py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg font-medium"
+            className="bg-white text-[#7C3AED] py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg font-medium"
           >
             Get Involved
           </motion.button>

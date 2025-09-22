@@ -139,7 +139,7 @@ const QualityProcess = () => {
   ];
 
   return (
-    <div className="bg-[#f5f3f0] min-h-screen">
+    <div className="bg-[#FDFCFB] min-h-screen">
       {/* Hero Section */}
       <div className="relative h-[50vh] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/20 z-10" />
@@ -192,7 +192,7 @@ const QualityProcess = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Our Dehydration Process – The BELANARO Way
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto mb-6"></div>
             <p className="text-gray-600 max-w-3xl mx-auto">
               At BELANARO, dehydration is not just a process — it is a craft
               perfected with precision. Every dehydrated onion bulb and
@@ -220,9 +220,9 @@ const QualityProcess = () => {
                 <motion.div
                   key={idx}
                   variants={itemVariants}
-                  className="bg-[#f5f3f0] rounded-xl p-6 hover:shadow-md transition-shadow duration-300"
+                  className="bg-[#FDFCFB] rounded-xl p-6 hover:shadow-md transition-shadow duration-300"
                 >
-                  <div className="text-3xl mb-4 text-[#A8415B]">
+                  <div className="text-3xl mb-4 text-[#7C3AED]">
                     {step.icon}
                   </div>
                   <h4 className="text-lg font-bold text-gray-800 mb-2">
@@ -247,7 +247,7 @@ const QualityProcess = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Quality Control at Every Touchpoint
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto mb-6"></div>
             <p className="text-gray-600 max-w-3xl mx-auto">
               Every product batch undergoes stringent, multi-layered quality
               checks from raw procurement to final dispatch.
@@ -268,7 +268,7 @@ const QualityProcess = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: idx * 0.1 }}
                   viewport={{ once: true }}
-                  className="bg-[#f5f3f0] rounded-xl p-6 hover:shadow-md transition-shadow duration-300"
+                  className="bg-[#FDFCFB] rounded-xl p-6 hover:shadow-md transition-shadow duration-300"
                 >
                   <h4 className="text-lg font-bold text-gray-800 mb-2">
                     {pillar.title}
@@ -279,7 +279,7 @@ const QualityProcess = () => {
             </div>
 
             <div className="text-center mt-6">
-              <p className="text-xl font-bold text-[#A8415B]">
+              <p className="text-xl font-bold text-[#7C3AED]">
                 BELANARO = Safe. Clean. Certified.
               </p>
             </div>
@@ -298,7 +298,7 @@ const QualityProcess = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Certifications & Safety Standards
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto mb-6"></div>
             <p className="text-gray-600 max-w-3xl mx-auto">
               We meet and exceed national and global food safety norms.
             </p>
@@ -317,7 +317,7 @@ const QualityProcess = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: idx * 0.1 }}
                   viewport={{ once: true }}
-                  className="bg-[#f5f3f0] rounded-xl p-6 text-center hover:shadow-md transition-shadow duration-300"
+                  className="bg-[#FDFCFB] rounded-xl p-6 text-center hover:shadow-md transition-shadow duration-300"
                 >
                   {/* <div className="h-20 relative mb-4 flex items-center justify-center">
                     <Image
@@ -363,8 +363,8 @@ const QualityProcess = () => {
             </h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="flex items-start bg-[#f5f3f0] p-6 rounded-lg">
-                <span className="text-2xl text-[#A8415B] mr-4">🔄</span>
+              <div className="flex items-start bg-[#FDFCFB] p-6 rounded-lg">
+                <span className="text-2xl text-[#7C3AED] mr-4">🔄</span>
                 <div>
                   <h4 className="font-bold text-gray-800 mb-2">
                     Consistent Batches
@@ -376,8 +376,8 @@ const QualityProcess = () => {
                 </div>
               </div>
 
-              <div className="flex items-start bg-[#f5f3f0] p-6 rounded-lg">
-                <span className="text-2xl text-[#A8415B] mr-4">📉</span>
+              <div className="flex items-start bg-[#FDFCFB] p-6 rounded-lg">
+                <span className="text-2xl text-[#7C3AED] mr-4">📉</span>
                 <div>
                   <h4 className="font-bold text-gray-800 mb-2">
                     Higher Margins
@@ -389,8 +389,8 @@ const QualityProcess = () => {
                 </div>
               </div>
 
-              <div className="flex items-start bg-[#f5f3f0] p-6 rounded-lg">
-                <span className="text-2xl text-[#A8415B] mr-4">🛃</span>
+              <div className="flex items-start bg-[#FDFCFB] p-6 rounded-lg">
+                <span className="text-2xl text-[#7C3AED] mr-4">🛃</span>
                 <div>
                   <h4 className="font-bold text-gray-800 mb-2">
                     Faster Delivery
@@ -402,8 +402,8 @@ const QualityProcess = () => {
                 </div>
               </div>
 
-              <div className="flex items-start bg-[#f5f3f0] p-6 rounded-lg">
-                <span className="text-2xl text-[#A8415B] mr-4">🌎</span>
+              <div className="flex items-start bg-[#FDFCFB] p-6 rounded-lg">
+                <span className="text-2xl text-[#7C3AED] mr-4">🌎</span>
                 <div>
                   <h4 className="font-bold text-gray-800 mb-2">
                     Universal Market Access
@@ -429,7 +429,7 @@ const QualityProcess = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="bg-[#A8415B] rounded-2xl p-10 md:p-16 text-center text-white"
+            className="bg-[#7C3AED] rounded-2xl p-10 md:p-16 text-center text-white"
           >
             <h2 className="text-3xl font-bold mb-6">
               🌱 Ready to Partner with a Certified, Process-Driven Manufacturer
@@ -444,7 +444,7 @@ const QualityProcess = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="mailto:yash@belanaro.com"
-                className="bg-white hover:bg-gray-100 text-[#A8415B] font-bold py-3 px-8 rounded-lg transition-colors duration-300"
+                className="bg-white hover:bg-gray-100 text-[#7C3AED] font-bold py-3 px-8 rounded-lg transition-colors duration-300"
               >
                 Email Us: yash@belanaro.com
               </a>

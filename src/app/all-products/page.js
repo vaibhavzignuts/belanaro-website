@@ -77,9 +77,9 @@ const AllProducts = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#F5F3F0] py-12 px-4 md:px-8">
+    <div className="min-h-screen bg-[#FDFCFB] py-12 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#A8415B] mb-2 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold text-[#7C3AED] mb-2 text-center">
           All Products
         </h1>
         <p className="text-gray-600 mb-12 text-center max-w-3xl mx-auto">
@@ -94,7 +94,7 @@ const AllProducts = () => {
             <input
               type="text"
               placeholder="Search products..."
-              className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#A8415B]"
+              className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#7C3AED]"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -120,7 +120,7 @@ const AllProducts = () => {
                 key={index}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
                   selectedForm === form
-                    ? 'bg-[#A8415B] text-white'
+                    ? 'bg-[#7C3AED] text-white'
                     : 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-100'
                 }`}
                 onClick={() => setSelectedForm(form)}
@@ -144,7 +144,7 @@ const AllProducts = () => {
               variants={productVariants}
               className={`bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all cursor-pointer ${
                 activeProduct?.name === product.name
-                  ? 'ring-4 ring-[#A8415B]'
+                  ? 'ring-4 ring-[#7C3AED]'
                   : ''
               }`}
               onClick={() => handleProductClick(product)}
@@ -158,7 +158,7 @@ const AllProducts = () => {
                   className="transition-transform duration-300 hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
-                  <span className="text-white text-sm px-3 py-1 rounded-full bg-[#A8415B]/80">
+                  <span className="text-white text-sm px-3 py-1 rounded-full bg-[#7C3AED]/80">
                     {product.categoryTitle}
                   </span>
                 </div>
@@ -173,7 +173,7 @@ const AllProducts = () => {
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-3">
-                  <span className="text-xs font-medium bg-[#F0E6E8] text-[#A8415B] px-2 py-1 rounded">
+                  <span className="text-xs font-medium bg-[#F0E6E8] text-[#7C3AED] px-2 py-1 rounded">
                     {product.color}
                   </span>
                   {product.variants &&
@@ -198,11 +198,11 @@ const AllProducts = () => {
                     </h4>
                     <ul className="text-sm text-gray-600 space-y-1 mb-3">
                       <li className="flex items-start">
-                        <span className="text-[#A8415B] mr-2">•</span>
+                        <span className="text-[#7C3AED] mr-2">•</span>
                         <span>{product.flavorAroma}</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-[#A8415B] mr-2">•</span>
+                        <span className="text-[#7C3AED] mr-2">•</span>
                         <span>{product.benefits.split(';')[0]}</span>
                       </li>
                     </ul>
@@ -246,7 +246,7 @@ const AllProducts = () => {
               Try adjusting your search or filter criteria.
             </p>
             <button
-              className="mt-4 px-4 py-2 bg-[#A8415B] text-white rounded-lg hover:bg-[#8A3349] transition-colors"
+              className="mt-4 px-4 py-2 bg-[#7C3AED] text-white rounded-lg hover:bg-[#8A3349] transition-colors"
               onClick={() => {
                 setSearchTerm('');
                 setSelectedForm('All');

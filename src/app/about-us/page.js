@@ -44,7 +44,7 @@ const AboutUs = () => {
   };
 
   return (
-    <div className="bg-[#f5f3f0] min-h-screen">
+    <div className="bg-[#FDFCFB] min-h-screen">
       {/* SECTION 1: Hero Banner */}
       <div className="relative h-[50vh] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/20 z-10" />
@@ -111,7 +111,7 @@ const AboutUs = () => {
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-2 mt-1">✓</span>
+                  <span className="text-[#7C3AED] mr-2 mt-1">✓</span>
                   <span className="text-gray-700">
                     Decades of Expertise – Our long-standing industry experience
                     ensures the best processing techniques and product
@@ -119,7 +119,7 @@ const AboutUs = () => {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-2 mt-1">✓</span>
+                  <span className="text-[#7C3AED] mr-2 mt-1">✓</span>
                   <span className="text-gray-700">
                     Preferred Supplier for Leading Brands – We serve food
                     processors, seasoning manufacturers, wholesalers, and spice
@@ -127,7 +127,7 @@ const AboutUs = () => {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-2 mt-1">✓</span>
+                  <span className="text-[#7C3AED] mr-2 mt-1">✓</span>
                   <span className="text-gray-700">
                     Ethical & Sustainable Farming – We source from trusted
                     farmers, ensuring chemical-free, Non-GMO, and eco-friendly
@@ -135,7 +135,7 @@ const AboutUs = () => {
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-2 mt-1">✓</span>
+                  <span className="text-[#7C3AED] mr-2 mt-1">✓</span>
                   <span className="text-gray-700">
                     Strict Quality Standards – We meet HACCP, ISO, and FSSAI
                     certifications, ensuring premium safety and quality.
@@ -159,7 +159,7 @@ const AboutUs = () => {
             <div className="absolute -bottom-10 -left-10 bg-white p-6 rounded-lg shadow-lg hidden md:block">
               <p className="text-gray-800 font-medium text-xl">
                 Trusted by food manufacturers in
-                <span className="text-[#A8415B] font-bold"> 7+ countries</span>
+                <span className="text-[#7C3AED] font-bold"> 7+ countries</span>
               </p>
             </div>
           </motion.div>
@@ -177,7 +177,7 @@ const AboutUs = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               From Gujarat to the Globe – Our Journey
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </div>
 
           <div className="bg-white rounded-lg p-8 shadow-lg">
@@ -188,7 +188,7 @@ const AboutUs = () => {
               dehydrated onion and garlic products, our growth story is built on
               one core principle:
             </p>
-            <p className="text-xl font-semibold text-[#A8415B] mb-6">
+            <p className="text-xl font-semibold text-[#7C3AED] mb-6">
               👉 We grow only when our importers grow.
             </p>
             <p className="text-gray-600 text-lg">
@@ -210,7 +210,7 @@ const AboutUs = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               Our Vision & Mission
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -221,14 +221,14 @@ const AboutUs = () => {
               viewport={{ once: true }}
               className="bg-white rounded-lg p-8 shadow-lg"
             >
-              <div className="w-16 h-16 bg-[#A8415B]/10 flex items-center justify-center rounded-full mb-6">
+              <div className="w-16 h-16 bg-[#7C3AED]/10 flex items-center justify-center rounded-full mb-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="28"
                   height="28"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#A8415B"
+                  stroke="#7C3AED"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -255,14 +255,14 @@ const AboutUs = () => {
               viewport={{ once: true }}
               className="bg-white rounded-lg p-8 shadow-lg"
             >
-              <div className="w-16 h-16 bg-[#A8415B]/10 flex items-center justify-center rounded-full mb-6">
+              <div className="w-16 h-16 bg-[#7C3AED]/10 flex items-center justify-center rounded-full mb-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="28"
                   height="28"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#A8415B"
+                  stroke="#7C3AED"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -277,28 +277,28 @@ const AboutUs = () => {
               </h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-2">•</span>
+                  <span className="text-[#7C3AED] mr-2">•</span>
                   <span>
                     Make importing dehydrated vegetables from India seamless and
                     stress-free
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-2">•</span>
+                  <span className="text-[#7C3AED] mr-2">•</span>
                   <span>
                     Provide certified, shelf-stable, non-GMO, and hygienically
                     processed products
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-2">•</span>
+                  <span className="text-[#7C3AED] mr-2">•</span>
                   <span>
                     Deliver excellence in bulk orders, private labeling, and
                     custom needs
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-2">•</span>
+                  <span className="text-[#7C3AED] mr-2">•</span>
                   <span>
                     Help food brands, distributors, and spice dealers scale
                     fearlessly
@@ -321,7 +321,7 @@ const AboutUs = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               What Makes BELANARO Different?
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -332,8 +332,8 @@ const AboutUs = () => {
               viewport={{ once: true, amount: 0.3 }}
               className="bg-white rounded-lg p-6 shadow-md hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="w-12 h-12 bg-[#A8415B]/10 flex items-center justify-center rounded-full mb-6">
-                <span className="text-xl text-[#A8415B]">🏭</span>
+              <div className="w-12 h-12 bg-[#7C3AED]/10 flex items-center justify-center rounded-full mb-6">
+                <span className="text-xl text-[#7C3AED]">🏭</span>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-4">
                 We Are a Brand
@@ -352,8 +352,8 @@ const AboutUs = () => {
               viewport={{ once: true, amount: 0.3 }}
               className="bg-white rounded-lg p-6 shadow-md hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="w-12 h-12 bg-[#A8415B]/10 flex items-center justify-center rounded-full mb-6">
-                <span className="text-xl text-[#A8415B]">🤝</span>
+              <div className="w-12 h-12 bg-[#7C3AED]/10 flex items-center justify-center rounded-full mb-6">
+                <span className="text-xl text-[#7C3AED]">🤝</span>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-4">
                 Built for Importers
@@ -372,8 +372,8 @@ const AboutUs = () => {
               viewport={{ once: true, amount: 0.3 }}
               className="bg-white rounded-lg p-6 shadow-md hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="w-12 h-12 bg-[#A8415B]/10 flex items-center justify-center rounded-full mb-6">
-                <span className="text-xl text-[#A8415B]">🚀</span>
+              <div className="w-12 h-12 bg-[#7C3AED]/10 flex items-center justify-center rounded-full mb-6">
+                <span className="text-xl text-[#7C3AED]">🚀</span>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-4">
                 Success Obsessed
@@ -399,33 +399,33 @@ const AboutUs = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               BELANARO Core Strengths
             </h2>
-            <div className="w-20 h-1 bg-[#A8415B] mx-auto"></div>
+            <div className="w-20 h-1 bg-[#7C3AED] mx-auto"></div>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <ul className="space-y-4 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">🌱</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">🌱</span>
                   <span className="text-lg">
                     Non-GMO, organic-ready, clean-label product portfolio
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">🏭</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">🏭</span>
                   <span className="text-lg">
                     Own factory with modern dehydration machinery and cold chain
                     logistics
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">🧪</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">🧪</span>
                   <span className="text-lg">
                     In-house QC lab with batch-wise testing and traceability
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">📦</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">📦</span>
                   <span className="text-lg">
                     Eco-safe, export-grade packaging for maximum shelf life
                   </span>
@@ -435,27 +435,27 @@ const AboutUs = () => {
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <ul className="space-y-4 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">🧾</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">🧾</span>
                   <span className="text-lg">
                     Full export documentation and global compliance support
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">📍</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">📍</span>
                   <span className="text-lg">
                     On-time deliveries to USA, Canada, UAE, Vietnam, Germany,
                     etc.
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">🧠</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">🧠</span>
                   <span className="text-lg">
                     Custom product development for spice blends, soups, snacks,
                     and FMCG
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#A8415B] mr-3 text-xl">🌐</span>
+                  <span className="text-[#7C3AED] mr-3 text-xl">🌐</span>
                   <span className="text-lg">
                     Global shipping capabilities with reliable logistics
                     partners
@@ -497,7 +497,7 @@ const AboutUs = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-[#A8415B]/10 rounded-2xl p-10 md:p-16 text-center"
+          className="bg-[#7C3AED]/10 rounded-2xl p-10 md:p-16 text-center"
         >
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
             Let Build Your Brand Together
@@ -529,7 +529,7 @@ const AboutUs = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-[#A8415B] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-lg"
+            className="bg-[#7C3AED] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-lg"
           >
             Contact Us Today
           </motion.button>
@@ -567,7 +567,7 @@ const AboutUs = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-[#A8415B] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-lg"
+              className="bg-[#7C3AED] text-white py-3 px-8 rounded-lg hover:bg-[#873548] transition-colors duration-300 shadow-lg"
             >
               Apply for Dealership
             </motion.button>

@@ -10,7 +10,7 @@ import {
 
 const features = [
   {
-    icon: <FaCheckCircle className="text-3xl text-[#A8415B]" />,
+    icon: <FaCheckCircle className="text-3xl text-[#7C3AED]" />,
     title: 'Hygienic & HACCP-certified Facility',
     description:
       'Our production facilities maintain the highest standards of hygiene and food safety certifications.',
@@ -18,7 +18,7 @@ const features = [
     hoverGradient: 'from-emerald-100 to-emerald-200',
   },
   {
-    icon: <FaTachometerAlt className="text-3xl text-[#A8415B]" />,
+    icon: <FaTachometerAlt className="text-3xl text-[#7C3AED]" />,
     title: 'State-of-the-art Dehydration Technology',
     description:
       'Using advanced dehydration technology to preserve flavor, color, and nutritional value of our products.',
@@ -26,7 +26,7 @@ const features = [
     hoverGradient: 'from-blue-100 to-blue-200',
   },
   {
-    icon: <FaFlask className="text-3xl text-[#A8415B]" />,
+    icon: <FaFlask className="text-3xl text-[#7C3AED]" />,
     title: 'In-house Lab Testing for Every Batch',
     description:
       'Comprehensive testing protocols ensure consistent quality and safety for all our dehydrated products.',
@@ -34,7 +34,7 @@ const features = [
     hoverGradient: 'from-purple-100 to-purple-200',
   },
   {
-    icon: <FaFileAlt className="text-3xl text-[#A8415B]" />,
+    icon: <FaFileAlt className="text-3xl text-[#7C3AED]" />,
     title: 'Export-Ready Documentation with Traceability',
     description:
       'Complete and transparent documentation with full traceability for smooth international trade.',
@@ -42,7 +42,7 @@ const features = [
     hoverGradient: 'from-amber-100 to-amber-200',
   },
   {
-    icon: <FaTruck className="text-3xl text-[#A8415B]" />,
+    icon: <FaTruck className="text-3xl text-[#7C3AED]" />,
     title: 'Cold Chain Logistics for Freshness',
     description:
       'Maintaining optimal temperature conditions throughout the supply chain for maximum product freshness.',
@@ -55,35 +55,35 @@ const WhyChoose = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <section className="py-20 bg-gradient-to-br from-[#e7dfd9] via-[#f0e9e3] to-[#e7dfd9] relative overflow-hidden">
+    <section className="py-20  bg-[#FDFCFB]  relative overflow-hidden">
       {/* Subtle background decoration */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-[#A8415B]/10 to-transparent rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
-      <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-[#A8415B]/15 to-transparent rounded-full blur-3xl translate-y-1/3 -translate-x-1/4"></div>
+      <div className="absolute top-0 right-0 w-96 h-96  from-[#7C3AED]/10 to-transparent rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
+      <div className="absolute bottom-0 left-0 w-80 h-80  from-[#7C3AED]/15 to-transparent rounded-full blur-3xl translate-y-1/3 -translate-x-1/4"></div>
 
       {/* Floating geometric shapes */}
-      <div className="absolute top-32 left-16 w-5 h-5 bg-[#A8415B]/20 rotate-45 animate-pulse"></div>
+      <div className="absolute top-32 left-16 w-5 h-5 bg-[#7C3AED]/20 rotate-45 animate-pulse"></div>
       <div
-        className="absolute top-20 right-32 w-4 h-4 bg-[#A8415B]/15 rounded-full animate-bounce"
+        className="absolute top-20 right-32 w-4 h-4 bg-[#7C3AED]/15 rounded-full animate-bounce"
         style={{ animationDelay: '1.5s' }}
       ></div>
       <div
-        className="absolute bottom-32 left-24 w-3 h-3 bg-[#A8415B]/25 rotate-45 animate-pulse"
+        className="absolute bottom-32 left-24 w-3 h-3 bg-[#7C3AED]/25 rotate-45 animate-pulse"
         style={{ animationDelay: '2.5s' }}
       ></div>
       <div
-        className="absolute bottom-20 right-16 w-6 h-6 bg-[#A8415B]/10 rounded-full animate-bounce"
+        className="absolute bottom-20 right-16 w-6 h-6 bg-[#7C3AED]/10 rounded-full animate-bounce"
         style={{ animationDelay: '3s' }}
       ></div>
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <div className="inline-block mb-6 px-6 py-3 bg-gradient-to-r from-pink-100 via-pink-200 to-pink-100 text-[#A8415B] border border-[#A8415B]/30 rounded-full text-base font-bold shadow-lg uppercase tracking-wide backdrop-blur-sm">
+          <div className="inline-block mb-6 px-6 py-3 bg-gradient-to-r from-pink-100 via-pink-200 to-pink-100 text-[#7C3AED] border border-[#7C3AED]/30 rounded-full text-base font-bold shadow-lg uppercase tracking-wide backdrop-blur-sm">
             Quality Commitment
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
             Uncompromising on
-            <span className="text-[#A8415B] block md:inline md:ml-3">
+            <span className="text-[#7C3AED] block md:inline md:ml-3">
               Quality
             </span>
           </h2>
@@ -121,7 +121,7 @@ const WhyChoose = () => {
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-xl font-bold text-gray-800 mb-4 leading-tight group-hover:text-[#A8415B] transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-gray-800 mb-4 leading-tight group-hover:text-[#7C3AED] transition-colors duration-300">
                     {feature.title}
                   </h3>
 
@@ -131,14 +131,14 @@ const WhyChoose = () => {
                   </p>
 
                   {/* Explore Button */}
-                  <button className="flex items-center gap-2 text-[#A8415B] font-semibold text-sm group-hover:gap-3 transition-all duration-300 self-start">
+                  <button className="flex items-center gap-2 text-[#7C3AED] font-semibold text-sm group-hover:gap-3 transition-all duration-300 self-start">
                     Explore
                     <FaArrowRight className="text-xs transform group-hover:translate-x-1 transition-transform duration-300" />
                   </button>
                 </div>
 
                 {/* Bottom accent line */}
-                <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-[#A8415B]/0 via-[#A8415B] to-[#A8415B]/0 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-[#7C3AED]/0 via-[#7C3AED] to-[#7C3AED]/0 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
               </div>
             </div>
           ))}
@@ -146,7 +146,7 @@ const WhyChoose = () => {
 
         {/* CTA Button */}
         <div className="text-center">
-          <button className="group relative bg-[#A8415B] hover:bg-[#8d3650] text-white font-semibold py-4 px-10 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden">
+          <button className="group relative bg-[#7C3AED] hover:bg-[#8d3650] text-white font-semibold py-4 px-10 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden">
             <span className="relative z-10 flex items-center gap-3">
               Explore Our Quality & Process
               <FaArrowRight className="transform group-hover:translate-x-1 transition-transform duration-300" />
