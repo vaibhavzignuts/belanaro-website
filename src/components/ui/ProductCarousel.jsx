@@ -4,67 +4,62 @@ import { useRouter } from 'next/navigation';
 
 const ProductCarousel = ({ products }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isTransitioning, setIsTransitioning] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState({});
   const router = useRouter();
 
-  // Enhanced auto-advance carousel with smooth transitions
+  // Preload images to prevent flickering
+  useEffect(() => {
+    const preloadImages = () => {
+      products.forEach((product, index) => {
+        const img = new Image();
+        img.onload = () => {
+          setImageLoaded(prev => ({ ...prev, [index]: true }));
+        };
+        img.src = product.image;
+      });
+    };
+    preloadImages();
+  }, [products]);
+
+  // Simplified auto-advance without transitions
   useEffect(() => {
     const interval = setInterval(() => {
-      setIsTransitioning(true);
-      setTimeout(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % products.length);
-        setIsTransitioning(false);
-      }, 150);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % products.length);
     }, 5000);
 
     return () => clearInterval(interval);
   }, [products.length]);
 
   const nextSlide = () => {
-    setIsTransitioning(true);
-    setTimeout(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % products.length);
-      setIsTransitioning(false);
-    }, 150);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % products.length);
   };
 
   const prevSlide = () => {
-    setIsTransitioning(true);
-    setTimeout(() => {
-      setCurrentIndex(
-        (prevIndex) => (prevIndex - 1 + products.length) % products.length
-      );
-      setIsTransitioning(false);
-    }, 150);
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 1 + products.length) % products.length
+    );
   };
 
   const goToSlide = (index) => {
-    if (index !== currentIndex) {
-      setIsTransitioning(true);
-      setTimeout(() => {
-        setCurrentIndex(index);
-        setIsTransitioning(false);
-      }, 150);
-    }
+    setCurrentIndex(index);
   };
 
   return (
     <div className="relative h-screen w-full overflow-hidden">
-      {/* Enhanced Navigation Arrows with better positioning and effects */}
+      {/* Optimized Navigation Arrows - Smaller size */}
       <button
         onClick={prevSlide}
-        className="absolute left-8 top-1/2 z-30 -translate-y-1/2 group"
+        className="absolute left-4 top-1/2 z-30 -translate-y-1/2 group"
         aria-label="Previous slide"
       >
-        <div className="bg-white/95 backdrop-blur-sm text-gray-800 p-4 rounded-full shadow-xl border border-white/20 transition-all duration-300 hover:bg-white hover:scale-110 hover:shadow-2xl group-active:scale-95">
+        <div className="bg-white/90 backdrop-blur-sm text-gray-700 p-2.5 rounded-full shadow-lg border border-white/20 transition-all duration-200 hover:bg-white hover:scale-105 active:scale-95">
           <svg
-            width="24"
-            height="24"
+            width="16"
+            height="16"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            strokeWidth="2.5"
-            className="transition-transform duration-200 group-hover:-translate-x-0.5"
+            strokeWidth="2"
           >
             <path d="M15 18l-6-6 6-6" />
           </svg>
@@ -73,18 +68,17 @@ const ProductCarousel = ({ products }) => {
 
       <button
         onClick={nextSlide}
-        className="absolute right-8 top-1/2 z-30 -translate-y-1/2 group"
+        className="absolute right-4 top-1/2 z-30 -translate-y-1/2 group"
         aria-label="Next slide"
       >
-        <div className="bg-white/95 backdrop-blur-sm text-gray-800 p-4 rounded-full shadow-xl border border-white/20 transition-all duration-300 hover:bg-white hover:scale-110 hover:shadow-2xl group-active:scale-95">
+        <div className="bg-white/90 backdrop-blur-sm text-gray-700 p-2.5 rounded-full shadow-lg border border-white/20 transition-all duration-200 hover:bg-white hover:scale-105 active:scale-95">
           <svg
-            width="24"
-            height="24"
+            width="16"
+            height="16"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            strokeWidth="2.5"
-            className="transition-transform duration-200 group-hover:translate-x-0.5"
+            strokeWidth="2"
           >
             <path d="M9 18l6-6-6-6" />
           </svg>
@@ -116,14 +110,21 @@ const ProductCarousel = ({ products }) => {
         {currentIndex + 1} / {products.length}
       </div>
 
-      {/* Enhanced Slide Content with clear image focus */}
+      {/* Optimized Slide Content with preloaded images */}
       <div className="relative h-full w-full">
-        {/* Main product image - completely clear */}
+        {/* Main product image with loading state */}
+        {!imageLoaded[currentIndex] && (
+          <div className="absolute inset-0 bg-gray-200 animate-pulse flex items-center justify-center">
+            <div className="text-gray-400">Loading...</div>
+          </div>
+        )}
+        
         <div
-          className={`absolute inset-0 bg-cover bg-center transition-all duration-700 ${
-            isTransitioning ? 'opacity-90 scale-105' : 'opacity-100 scale-100'
-          }`}
-          style={{ backgroundImage: `url(${products[currentIndex].image})` }}
+          className="absolute inset-0 bg-cover bg-center transition-opacity duration-500"
+          style={{ 
+            backgroundImage: `url(${products[currentIndex].image})`,
+            opacity: imageLoaded[currentIndex] ? 1 : 0
+          }}
         />
 
         {/* Minimal overlay only for content readability */}
